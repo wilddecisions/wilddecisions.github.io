@@ -59,6 +59,10 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 We will populate this page with a Code of Conduct that describes expectations for working behavior in the lab.
 
+Best practices in [reproducible data science](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf).
+
+Our lab [GitHub page](https://github.com/wildlife-decision-shop).
+
 <br>
 
 <!-- Simple Dark Blue Footer -->
