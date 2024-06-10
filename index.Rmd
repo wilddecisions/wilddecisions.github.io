@@ -10,7 +10,7 @@ td {  /* Table  */ font-size: 8px;}
 h1.title {font-size: 38px; color: DarkRed;}
 h1 { /* Header 1 */ font-size: 28px; color: Black;}
 h2 { /* Header 2 */ font-size: 22px; color: Black;}
-h3 { /* Header 3 */ font-size: 18px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black; font-weight: bold;}
 code.r{ /* Code block */ font-size: 12px;}
 pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 .navbar {
@@ -55,11 +55,13 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 }
 }</style>
 
-Welcome to the website for the **Wildlife Decision-Support Shop** in the [Nevada Cooperative Fish and Wildlife Research Unit](https://www.unr.edu/nvcfwru) at the [University of Nevada, Reno](https://www.unr.edu/nres).
+Establish in 2024, the **Wildlife Decision-Support Shop** is a new wildlife research laboratory in the [Nevada Cooperative Fish and Wildlife Research Unit](https://www.unr.edu/nvcfwru) at the [University of Nevada, Reno](https://www.unr.edu/nres). We build **science products** to support **decision needs** for **wildlife management agencies** in the Great Basin region and beyond.
 
-We build **science products** to support **decision needs** for **wildlife management agencies**. We work closely with agencies to understand their problems and build customized, highly-tailored science products that support their decisions. Our expertise includes **quantitative ecology**, **population biology**, **decision analysis**, and **co-production**; we combine field research, quantitative methods, and  structured-decision making skills to help understand how landscapes influence wildlife populations and support value-based wildlife management decisions in an inclusive and transparent framework.
+Our overall goal is to provide **science** that helps understand how **landscapes** influence **wildlife populations and communities** and supports value-based **wildlife management decisions** in an inclusive and transparent framework. We have the usual capacity in **quantitative ecology** and **population biology** that are common among wildlife research laboratories. However, **co-production** and **decision analysis** are core values that set us apart. We work closely with cooperating agencies to understand their decision needs and ultimately build them highly customized science products that support their real-world management decision.
 
-On this site, you can learn about [who we are](https://brianfolt.github.io/members), our [research interests](https://brianfolt.github.io/research), [publications ](https://brianfolt.github.io/publications) from our work, and our lab [policies](https://brianfolt.github.io/links). We will post advertisements for graduate student and scientist opportunities here as well. Please reach out if you are interested in **joining our team** or **collaborating** with us.
+On this site, you can learn about [who we are](https://brianfolt.github.io/members), our [research interests](https://brianfolt.github.io/research), [publications ](https://brianfolt.github.io/publications) and tools from our work, our lab lead's philosophy toward [mentorship](https://brianfolt.github.io/philosophy), and expectations for behavior in the lab ([code of conduct]([mentorship](https://brianfolt.github.io/code_of_conduct)). We will post advertisements for graduate student and scientist opportunities here as well.
+
+Please reach out if you are interested in **joining our team** or **collaborating** with us. Contact information for the principal investigator, **Dr. Brian Folt**, can be found [here](https://www.unr.edu/nvcfwru/folt-brian).
 
 ```{r pictures, echo=FALSE}
 library(slickR)

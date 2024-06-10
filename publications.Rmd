@@ -10,7 +10,7 @@ td {  /* Table  */ font-size: 8px;}
 h1.title {font-size: 38px; color: DarkRed;}
 h1 { /* Header 1 */ font-size: 28px; color: Black;}
 h2 { /* Header 2 */ font-size: 22px; color: Black;}
-h3 { /* Header 3 */ font-size: 18px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black; font-weight: bold;}
 code.r{ /* Code block */ font-size: 12px;}
 pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 .navbar {
@@ -87,7 +87,7 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 ### <u>2022</u>
 
-[24] **B Folt**, K Schoenecker, LS Ekernas. 2022. Multi-objective modeling as a decision-support tool for free-roaming horse management. *Human-Wildlife Interactions*. [PDF](files/folt-et-al-2022-hwi.pdf) [Software](https://doi.org/10.5066/P9HRF1H9)
+[24] **B Folt**, K Schoenecker, LS Ekernas. 2022. Multi-objective modeling as a decision-support tool for free-roaming horse management. *Human-Wildlife Interactions* 16(2):233–250. [DOI](https://doi.org/10.26077/a6e8-0759) [PDF](files/folt-et-al-2022-hwi.pdf) [Software](https://doi.org/10.5066/P9HRF1H9)
 
 [23] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2022. Using predictions from multiple anthropogenic threats to estimate future population persistence of an imperiled species. *Global Ecology and Conservation* 36: e02143. [PDF](files/folt-et-al-2022-tortoise-pva.pdf) [DOI](https://doi.org/10.1016/j.gecco.2022.e02143)
 

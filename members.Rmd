@@ -10,7 +10,7 @@ td {  /* Table  */ font-size: 8px;}
 h1.title {font-size: 38px; color: DarkRed;}
 h1 { /* Header 1 */ font-size: 28px; color: Black;}
 h2 { /* Header 2 */ font-size: 22px; color: Black;}
-h3 { /* Header 3 */ font-size: 18px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black; font-weight: bold;}
 code.r{ /* Code block */ font-size: 12px;}
 pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 .navbar {
@@ -64,6 +64,10 @@ Brian is a quantitative ecologist and population biologist who is interested in 
 ### [**Current Lab Members**]{.ul}
 
 We are just beginning to build out the lab and will be hiring graduate students and scientists to help with projects as they emerge.
+
+### [**Opportunities**]{.ul}
+
+We will be hiring a research scientist (post-MS, or post-PhD) to help measure ungulate migration behavior and corridors in Nevada and co-produce decision-support science for the Nevada Department of Wildlife. A job advertisement will be posted here in July 2024. Please check back here soon for more information.
 
 <br>
 
