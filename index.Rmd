@@ -66,7 +66,7 @@ On this site, you can learn about [who we are](https://brianfolt.github.io/membe
 
 Please reach out if you are interested in **joining our team** or **collaborating** with us.
 
-<img src="images/logo.png" style="width:35%; border:0px solid; margin-right: 5px" align="right">
+<img src="images/logo.png" style="width:33%; border:0px solid; margin-right: 5px" align="right">
 
 <div class="single-spaced">
 **Contact information:**<br>
