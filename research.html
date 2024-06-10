@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>research.knit</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Lab Logo" style="height: 150px; display: block; margin: 0 auto;"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="members.html">Members</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Links
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="philosophy.html">Philosophy</a>
+    </li>
+    <li>
+      <a href="code_of_conduct.html">Code of Conduct</a>
+    </li>
+    <li>
+      <a href="prospective_students.html">Prospective Students</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black;  line-height: 1.8;}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+.navbar {
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space out items */
+  align-items: start; /* Top vertical end */
+  #align-items: center; /* Center items vertically */
+  #align-items: flex-end; /* Lower vertical end */
+  height: 175px; /* Set specific height for navbar, adjust as needed */
+  background-color: #000033; /* Dark blue color */
+}
+.navbar-nav a {
+  text-decoration: none; /* Optional: remove underline from links */
+  color: black; /* Optional: set link color */
+}
+.navbar-nav li {
+  padding: 10px 0 0 0; /* Add padding to top of menu items */
+  padding: 0 10px; /* Optional: add padding to menu items */
+}
+/* Ensure the parent container is relatively positioned */
+.parent-container {
+  position: relative;
+}
+.footer {
+  background-color: #000033; /* Dark blue color */
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensure the footer spans the full width */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Align the footer to the left edge */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+.footer a {
+  color: white; /* Footer links color */
+  text-decoration: none; /* Remove underline from links */
+}
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+}</style>
+<p><img src="images/me_amphiuma_2012.jpg" style="width:30%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>We study how <strong>landscapes</strong> influence <strong>wild
+animal populations</strong> from fundamental and applied perspectives.
+We conduct fundamental research that tests <strong>hypotheses</strong>
+about how habitat influences the dynamics of animal populations, and
+then we work to understand how populations, habitats, and landscapes can
+be <strong>managed</strong> in ways that <strong>maximize</strong>
+important societal <strong>values</strong>, such as preventing species
+extinction, maximizing ecosystem health, maximizing recreational value,
+and reducing management cost.</p>
+<p><strong>Decision makers</strong> in natural resource management are
+challenged by <strong>complex decisions</strong> with <strong>great
+uncertainty</strong>. To help navigate difficult decisions, we work
+closely with cooperators and decision makers to use decision analysis
+tools (e.g., <strong>structured decision making</strong>) to improve
+shared understanding of problems, objectives, alternatives, and
+important trade-offs in the decision. This work often takes a
+<strong>co-production</strong> approach, where we work together as a
+group to understand the problem, build science products, and improve
+decision-support products in an iterative fashion. End products include
+<strong>reports</strong>, <strong>science articles</strong>, and dynamic
+<strong>computer applications</strong> that, for example, use predictive
+models to estimate how well alternatives might achieve different
+objectives during decisions.</p>
+<p>Our work is <strong>collaborative</strong> in nature and we rely on
+diverse <strong>teams</strong> of students, post-docs, scientists,
+experts, and decision makers. Together, we create well-rounded teams
+that work collaboratively to understand problems, build products, and
+communicate <strong>actionable science</strong> to decision makers.</p>
+<p>Click on the <strong>bold topics</strong> below to toggle
+‘<strong>Case Studies</strong>’ describing examples of our work.</p>
+<div class="expand collapsed" data-toggle="collapse"
+data-target="#horses" aria-expanded="false" aria-controls="horses">
+<div
+style="background-color:rgba(0, 0, 0, 0.0470588); padding:0px 12px;">
+<p><a style="color:black"> <font size="4"> <strong>Wild Horse
+Management</strong> </font> </a></p>
+</div>
+<div id="horses" class="collapse">
+<p><img src="images/wild-horses-cropped.jpg" style="width:35%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>The Wild and Free-roaming Horses and Burros Act (<a
+href="https://www.blm.gov/sites/blm.gov/files/programs_wildhorse_history_doc1.pdf">WFRHBA
+1971</a>) designates certain populations of feral horses on federal
+lands in the western U.S. as ‘wild’ horses and burros. The law also
+mandates that these populations must be managed to achieve a sustainable
+balance between horse populations and other uses on the landscape
+(wildlife, ranching, etc.). Because no predators limit horse and burro
+populations in western North America, the populations grow quickly, can
+disrupt the sustainability of ecosystems, cause millions of dollars of
+annual costs to manage, and frustrate diverse stakeholders who feel that
+their interests are not met.</p>
+<p><img src="images/popequus.png" style="width:36%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>The Bureau of Land Management (BLM) and U.S. Forest Service (USFS)
+have decision authority for &gt;175 wild horse and burro populations.
+Horse population management is a complex issue with multiple competing
+objectives related to resulting horse population size, horse handling,
+and fiscal costs. To help decision makers understand trade-offs among
+alternatives, we worked with staff from the BLM Wild Horse and Burro
+Program to co-produce <a
+href="https://rconnect.usgs.gov/popequus/"><em>PopEquus</em></a>, an
+online simulation tool for wild horse population management. Users can
+specify features of a horse population (e.g., population growth rate)
+and simulate 19 management alternatives in a customizable, user-friendly
+interface that graphs predicted outcomes related to important metrics.
+<em>PopEquus</em> is being used by wildlife managers to support
+management decisions for populations of wild horses and burros across
+the West, which have important consequences for the management of many
+sensitive ecosystems (<a href="files/folt-et-al-2023-ecosphere.pdf">Folt
+et al. 2023</a>).</p>
+<p><img src="images/horses_cropped.jpg" style="width:30%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>Central to the challenge of horse population management is that horse
+populations grow quickly (e.g., 15–20% increases per year), and
+population growth rate is a key input to <em>PopEquus</em>. However,
+most studies of this topic date back to the 1980–2000, and we poorly
+understand environmental, spatial, or temporal effects on population
+growth rates. We worked with BLM staff to analyze 8 years of horse
+population estimates from aerial surveys of 35 populations in an
+hierarchical population model. We estimated effects of geography,
+fertility control treatment, and population density on population growth
+rates of horse populations across the West. A manuscript describing
+results is ‘in preparation’. These results will help wildlife managers
+prioritize populations for management depending on population growth
+rate and evaluate the effectiveness of previous management alternatives
+(e.g., fertility control treatment).</p>
+</div>
+</div>
+<div class="expand collapsed" data-toggle="collapse"
+data-target="#tortoise" aria-expanded="false" aria-controls="tortoise">
+<div
+style="background-color:rgba(0, 0, 0, 0.0470588); padding:0px 12px;">
+<p><a style="color:black"> <font size="4"> <strong>Endangered Species
+Risk Assessments</strong> </font> </a></p>
+</div>
+<div id="tortoise" class="collapse">
+<p><img src="images/gopher_tortoise.jpg" style="width:30%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>Populations with high survival, low recruitment rates, and long
+generation times (i.e., <em>K</em>-selected species) are often sensitive
+to and imperiled when humans influence adult survival. North American
+tortoises (<em>Gopherus</em> species) exemplify this challenge. Both the
+Gopher Tortoise (<em>G. polyphemus</em>) and Mojave Desert Tortoise
+(<em>G. agassizii</em>) have experienced large population declines and
+both species are listed as ‘Threatened’ under the U.S. Endangered
+Species Act. State and federal agencies (U.S. Fish and Wildlife Service;
+USFWS) require risk assessments for imperiled tortoise populations
+(e.g., population viability analysis) that can assess current and future
+extinction risk and evaluate the consequences of management alternatives
+on future population conditions.</p>
+<p><img src="images/tortoises.png" style="width:35%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>We worked with the Alabama Dept. of Conservation and Natural
+Resources (ADCNR) to evaluate population viability and extinction risk
+for Gopher Tortoise populations that experienced different
+landscape-scale management over a 30-year period. We found that when
+habitat was managed with prescribed fire to achieve open-canopy forest
+structure, small populations (20–30 individuals) were stable in
+population size over three decades, which refined our understanding of
+the species’ minimum viable population size (<a
+href="files/folt-et-al-2021-jwm.pdf">Folt et al. 2021</a>).</p>
+<p><img src="images/tort_model.png" style="width:30%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>To inform a Species Status Assessment for the Gopher Tortoise, the
+U.S. Fish and Wildlife Service required a regional-scale predictive
+model to understand the species’ future population conditions under
+scenarios of climate warming, sea-level rise, urbanization, and varying
+habitat management. We evaluated range-wide population persistence and
+extinction risk and presented this information to decision makers during
+the species Reclassification under the ESA (<a
+href="files/folt-et-al-2022-tortoise-pva.pdf">Folt et al. 2022</a>).
+Ultimately, the USFWS decided that the species’ listing status did not
+require a change and the species remains ‘Threatened’. We have recently
+been developing a website application that provides a flexible <a
+href="https://brianfolt.github.io/tortoise_population_viability/">population
+viability analysis tool</a> for gopher tortoises.</p>
+<p>We have been involved in a project to integrate long-term datasets
+and estimate historical and future population dynamics of the Mojave
+Desert Tortoise across the species range. We used a co-production
+approach to elicit important threats and management actions, and then
+using advanced machine-learning and geospatial techniques to estimate
+landscape-scale threat layers. Ultimately, we aim to model population
+dynamics as a consequence of past and future threats and management,
+with the goal of helping wildlife managers more effectively manage
+tortoise populations across the species range.</p>
+</div>
+</div>
+<div class="expand collapsed" data-toggle="collapse"
+data-target="#reintroduction" aria-expanded="false"
+aria-controls="reintroduction">
+<div
+style="background-color:rgba(0, 0, 0, 0.0470588); padding:0px 12px;">
+<p><a style="color:black"> <font size="4"> <strong>Wildlife
+Reintroductions</strong> </font> </a></p>
+</div>
+<div id="reintroduction" class="collapse">
+<p><img src="images/indigo-release.jpg" style="width:35%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>Wildlife reintrodutions have become a common management strategy to
+increase population redundancy for threatened or endangered species. The
+Eastern Indigo Snake (<em>Drymarchon couperi</em>) is a federally
+‘Threatened’ species under the Endangered Species Act that has
+experienced population declines throughout most of its range. The
+species is functionally extirpated in Alabama, Mississippi, and the
+Florida panhandle, and population re-establishment via reintroduction at
+improved habitats in Alabama and Florida was identified as an important
+recovery criterion in the U.S. Fish and Wildlife Service’s Recover Plan
+for the species. A captive breeding colony was established at the
+Central Florida Zoo, and an expert committee was established to guide
+reintroduction efforts. However, experts needed information about how
+many individuals needed to be released at release sites to create self
+sustaining populations while maintaining positive growth of the captive
+population and minimizing cost. The decision maker for these efforts is
+the U.S. Fish and Wildlife Service (USFWS).</p>
+<p><img src="images/indigos.jpg" style="width:35%; border:2px solid; margin-left: 15px" align="right"></p>
+<p>As a post-doc, Brian Folt worked with the expert committee and USFWS
+to co-produce a population model guiding reintroductions that evaluated
+the sensitivity of population viability to the release size (number of
+snakes), age (snake age class), and frequency (number of release years)
+(<a href="files/folt-et-al-2019-animal-conservation.pdf">Folt et
+al. 2019</a>). The decision maker has attempted to follow these
+recommendations and efforts have seen signs of reintroduction success in
+recent years (<a href="https://www.outdooralabama.com/node/3479">e.g.,
+hatchling snakes!</a>).</p>
+<p>The USFWS reintroduction plan suddenly came under fire when a genetic
+study was published suggesting that the Eastern Indigo Snake might
+comprise two distinct species and that reintroductions allegedly were
+releasing the incorrect species. However, this study relied on a single
+genetic marker. To more robustly test this hypothesis, Brian Folt worked
+with scientists from multiple agencies to synthesize multiple lines of
+evidence (genetic, morphological, and life history), and we found strong
+support for there only being one species (<a
+href="files/folt-et-al-2019-plos-one.pdf">Folt et al. 2019</a>, <a
+href="files/guyer-et-al-2019-zootaxa.pdf">Guyer et al. 2021</a>). This
+decreased logistical burden for the decision makers, thereby increasing
+likelihood of reintroduction success. To communicate this complex
+situation, Brian wrote an op-ed to the local newspaper explaining
+reintroduction rationale and the science supporting it (<a
+href="https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/">Tallahassee
+Democrat</a>).</p>
+</div>
+</div>
+<div class="expand collapsed" data-toggle="collapse"
+data-target="#decisionanalysis" aria-expanded="false"
+aria-controls="decisionanalysis">
+<div
+style="background-color:rgba(0, 0, 0, 0.0470588); padding:0px 12px;">
+<p><a style="color:black"> <font size="4"> <strong>Decision
+Analysis</strong> </font> </a></p>
+</div>
+<div id="decisionanalysis" class="collapse">
+<p><img src="images/horses_cropped.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>Decision makers in natural resource management are faced with complex
+problems with multiple stakeholders, competing objectives, considerable
+uncertainty, and limited budgets. We help decision makers navigate
+problems using values-focused decision analysis (e.g., structured
+decision making), facilitated meetings, and/or analytical methods to
+understand trade-offs and evaluate the strength of alternatives (<a
+href="files/lawson-et-al-2021-conbio.pdf">Lawson et al. 2021</a>, <a
+href="files/Folt-et-al-inpress.pdf">Folt et al. 2022</a>).</p>
+</div>
+</div>
+<p><br></p>
+<!-- Simple Dark Blue Footer -->
+<div class="footer">
+<p>
+© 2024 Wildlife Decision-Support Shop. All rights reserved.
+</p>
+</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

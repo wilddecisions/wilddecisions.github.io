@@ -1,0 +1,32 @@
+/* Ensure navbar and its contents are centered */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px; /* Adjust as needed */
+}
+
+/* Style the logo to ensure it's properly centered and fits within the navbar */
+.navbar-logo {
+  height: 100px; /* Adjust as needed */
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+/* Ensure menu items are aligned properly */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Additional optional styling for the navbar items */
+.navbar-nav li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px; /* Adjust as needed */
+}

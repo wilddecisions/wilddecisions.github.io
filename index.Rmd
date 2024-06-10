@@ -1,0 +1,144 @@
+---
+output:
+  html_document:
+    theme: yeti
+---
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black;  line-height: 1.8;}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+.navbar {
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space out items */
+  align-items: start; /* Top vertical end */
+  #align-items: center; /* Center items vertically */
+  #align-items: flex-end; /* Lower vertical end */
+  height: 175px; /* Set specific height for navbar, adjust as needed */
+  background-color: #000033; /* Dark blue color */
+}
+.navbar-nav a {
+  text-decoration: none; /* Optional: remove underline from links */
+  color: black; /* Optional: set link color */
+}
+.navbar-nav li {
+  padding: 10px 0 0 0; /* Add padding to top of menu items */
+  padding: 0 10px; /* Optional: add padding to menu items */
+}
+/* Ensure the parent container is relatively positioned */
+.parent-container {
+  position: relative;
+}
+.footer {
+  background-color: #000033; /* Dark blue color */
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensure the footer spans the full width */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Align the footer to the left edge */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+.footer a {
+  color: white; /* Footer links color */
+  text-decoration: none; /* Remove underline from links */
+}
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+}</style>
+
+Welcome to the website for the **Wildlife Decision-Support Shop** in the [Nevada Cooperative Fish and Wildlife Research Unit](https://www.unr.edu/nvcfwru) at the [University of Nevada, Reno](https://www.unr.edu/nres).
+
+We build **science products** to support **decision needs** for **wildlife management agencies**. We work closely with agencies to understand their problems and build customized, highly-tailored science products that support their decisions. Our expertise includes **quantitative ecology**, **population biology**, **decision analysis**, and **co-production**; we combine field research, quantitative methods, and  structured-decision making skills to help understand how landscapes influence wildlife populations and support value-based wildlife management decisions in an inclusive and transparent framework.
+
+On this site, you can learn about [who we are](https://brianfolt.github.io/members), our [research interests](https://brianfolt.github.io/research), [publications ](https://brianfolt.github.io/publications) from our work, and our lab [policies](https://brianfolt.github.io/links). We will post advertisements for graduate student and scientist opportunities here as well. Please reach out if you are interested in **joining our team** or **collaborating** with us.
+
+```{r pictures, echo=FALSE}
+library(slickR)
+paths <- c(
+  
+  "images/pocket-gopher.jpg",
+  "images/cave.JPG",
+  "images/gopher_tortoise.jpg",
+  
+  "images/bat.JPG",
+  "images/grouse.jpg",
+  "images/wild-horses-cropped.jpg",
+  
+  "images/la-sierra-class.jpg",
+  "images/dinner.JPG",
+  "images/prep-tray.jpg",
+
+  "images/indigo.jpg",
+  "images/gator-snapper.jpg",
+  "images/tigris_25mar18_1a.JPG",
+
+  "images/glassfrog.jpg",
+  "images/lascruces_27sep17.jpeg",
+  "images/toucan_27sep17_1a.jpeg",
+    
+  "images/indigo-release.jpg",
+  "images/supraciliaris.JPG",
+  "images/montanus.jpeg",
+
+  "images/caracara_9oct17_1b.JPG",
+  "images/shoal-lily.jpeg",
+  "images/WL110573.jpeg",
+  
+  "images/oophaga-pumilio.jpg",
+  "images/hawk.JPG",
+  "images/cyrtodactylus_19aug18_1a.jpeg"
+
+  )
+
+slickR(obj=paths, height=175) + 
+  settings(dots = TRUE, slidesToScroll=3, slidesToShow=3, 
+           autoplay=TRUE, autoplaySpeed=5000,
+           responsive = V8::JS(
+  "[
+   {
+    breakpoint: 850,
+  settings: {
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    infinite: true,
+    dots: true
+   }
+  },
+  {
+   breakpoint: 700,
+    settings: {
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    infinite: true,
+    dots: true
+  }
+ },
+ {
+    breakpoint: 480,
+    settings: {
+    slidesToShow: 1,
+     slidesToScroll: 1,
+     infinite: true,
+     dots: true
+    }
+   }
+  ]"
+   ))
+```
+
+<br>
+
+<!-- Simple Dark Blue Footer -->
+<div class="footer">
+  <p>&copy; 2024 Wildlife Decision-Support Shop. All rights reserved.</p>
+  </p>
+</div>

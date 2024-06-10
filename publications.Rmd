@@ -1,0 +1,219 @@
+---
+output:
+  html_document:
+    theme: yeti
+---
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black;  line-height: 1.8;}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+.navbar {
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space out items */
+  align-items: start; /* Top vertical end */
+  #align-items: center; /* Center items vertically */
+  #align-items: flex-end; /* Lower vertical end */
+  height: 175px; /* Set specific height for navbar, adjust as needed */
+  background-color: #000033; /* Dark blue color */
+}
+.navbar-nav a {
+  text-decoration: none; /* Optional: remove underline from links */
+  color: black; /* Optional: set link color */
+}
+.navbar-nav li {
+  padding: 10px 0 0 0; /* Add padding to top of menu items */
+  padding: 0 10px; /* Optional: add padding to menu items */
+}
+/* Ensure the parent container is relatively positioned */
+.parent-container {
+  position: relative;
+}
+.footer {
+  background-color: #000033; /* Dark blue color */
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensure the footer spans the full width */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Align the footer to the left edge */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+.footer a {
+  color: white; /* Footer links color */
+  text-decoration: none; /* Remove underline from links */
+}
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+}</style>
+
+Below are publications and PDF reprints from Brian Folt and the Wildlife Decision-Support Shop. Peer-reviewed publications are listed numerically and ordered by year. 
+
+### <u>In the pipeline (availailable upon request)</u>
+
+[i] **B Folt**, M Crabb, KA Schoenecker. Wild horse population growth rates across the western United States. In preparation.
+
+<img src="images/desert_tortoise.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[ii] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. In preparation.
+
+[iii] **B Folt**, C Guyer. Integrated population modeling reveals leaf-drop phenology effects on vertebrate population dynamics. In preparation.
+
+<img src="images/tort_genetics.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+### <u>2024</u>
+
+[27] C Guyer, JM Goessling, **B Folt**. Annual and lifetime home ranges reveal movement patterns within and among local populations of gopher tortoises. *Chelonian Conservation and Biology*, in press.
+
+[26] AR Krohn, **B Folt**, JJ Apodaca, C Guyer, J Goessling. 2024. Using genomic data to estimate population structure and health for gopher tortoises. *Conservation Genetics*, in press. [DOI](https://doi.org/10.1007/s10592-024-01601-1) [PDF](files/krohn_et_al_2024_tortoises.pdf) 
+
+### <u>2023</u>
+
+[25]	**B Folt**, KA Schoenecker, LS Ekernas, DR Edmunds, M Hannon. 2023. *PopEquus*: a predictive modeling tool to support management decisions for free-roaming horse populations. *Ecosphere* e4632. [DOI](https://doi.org/10.1002/ecs2.4632) - [PDF](files/folt-et-al-2023-ecosphere.pdf) - [Software](https://doi.org/10.5066/P9HVUA6D) - [Application](https://rconnect.usgs.gov/popequus/)
+
+<img src="images/popequus.PNG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[Software] **B Folt**, LS Ekernas, DR Edmunds, M Hannon, KA Schoenecker. 2023. *PopEquus*: A Predictive Modeling Tool to Support Management Decisions for Free-roaming Horse Populations: U.S. Geological Survey software release, [https://doi.org/10.5066/P9NMRQDG](https://doi.org/10.5066/P9NMRQDG). [Web app](https://rconnect.usgs.gov/popequus/). Press Releases: [BLM](https://www.blm.gov/press-release/new-tool-models-future-wild-horses-public-lands), [USGS](https://www.usgs.gov/news/national-news-release/new-tool-models-future-wild-horses-public-lands)
+
+<img src="images/wild-horses-cropped.JPG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+### <u>2022</u>
+
+[24] **B Folt**, K Schoenecker, LS Ekernas. 2022. Multi-objective modeling as a decision-support tool for free-roaming horse management. *Human-Wildlife Interactions*. [PDF](files/folt-et-al-2022-hwi.pdf) [Software](https://doi.org/10.5066/P9HRF1H9)
+
+[23] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2022. Using predictions from multiple anthropogenic threats to estimate future population persistence of an imperiled species. *Global Ecology and Conservation* 36: e02143. [PDF](files/folt-et-al-2022-tortoise-pva.pdf) [DOI](https://doi.org/10.1016/j.gecco.2022.e02143)
+
+<img src="images/gopher_tortoise.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+### <u>2021</u>
+
+[22] AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan. 2021. Decision context as a necessary component of population viability analysis appraisal. *Conservation Biology* 35(5): 1683–1685. [PDF](files/lawson-et-al-2021-conbio.pdf) [DOI](https://doi.org/10.1111/cobi.13818) 
+
+[21] **B Folt**, C Guyer. 2021. Habitat-dependent effects of predators on prey frogs in a Neotropical wet forest. *Journal of Tropical Ecology* 37(5): 214-221. [PDF](files/folt-and-guyer-2021-spiders.pdf) [DOI](https://doi.org/10.1017/S0266467421000274)
+
+<img src="images/jwm-cover.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[20] T Mitchell, **B Folt**, J Hall. 2021. Dumpsters and other anthropogenic structures as habitat for invasive African rock agama lizards in Florida. *Biological Invasions* 23: 2689–2693. [PDF](files/mitchell-et-al-2021-agamas.pdf) [DOI](https://doi.org/10.1007/s10530-021-02537-0)
+
+[19] **B Folt**, J Goessling, AM Tucker, C Guyer, S Hermann, E Shelton-Nix, CP McGowan. 2021. Contrasting patterns of demography and population viability among gopher tortoise populations in Alabama. *Journal of Wildlife Management* 85(4): 617–630. [PDF](files/folt-et-al-2021-jwm.pdf) [DOI](https://doi.org/10.1002/jwmg.21996)
+
+### <u>2020</u>
+
+[18] **B Folt**. 2020. Population demography of *Rhinoclemmys funerea* (Black River Turtle) at a protected forest reserve in Costa Rica. *Herpetological Conservation and Biology* 15(3):611–619. [PDF](files/folt-2020-rhinoclemmys.pdf) [DOI](https://www.herpconbio.org)
+
+[17] R Etzel, M Cornish, MS Kifer, L Nuñez, G Valladao, **B Folt**. 2020. Subterranean advertisement and duet calling behavior in *Ptychohyla legleri* (Legler’s Stream Frog). *Alytes* 37(3–4): 57–61. [PDF](files/etzel-et-al-2020-ptychohyla.pdf) [Data](https://figshare.com/articles/Calling_Behavior_of_Ptychohyla_legleri_Legler_s_Stream_Frog_/11797191)
+
+<img src="images/indigo.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[16] **B Folt**, CP McGowan, DA Steen, S Piccolomini, M Hoffman, J Godwin, C Guyer. 2020. Modeling strategies and evaluating success during repatriations of elusive and endangered species. *Animal Conservation* 23: 273–285. [PDF](files/folt-et-al-2019-animal-conservation.pdf) [DOI](https://doi.org/10.1111/acv.12537) [Code](https://github.com/brianf0lt/indigo-repatriation-model)
+
+### <u>2019</u>
+
+[15] C Guyer, **B Folt**, M Hoffman, J Bauder, D Stevenson, S Goetz, M Miller, J Godwin. 2019. Patterns of head shape and scutellation in *Drymarchon couperi* (Squamata: Colubridae) reveal a single morphological species. *Zootaxa* 4695(2): 168–174. [PDF](files/guyer-et-al-2019-zootaxa.pdf) [DOI](http://dx.doi.org/10.11646/zootaxa.4695.2.6)
+
+[14] C Guyer, S Goetz, **B Folt**, K Joyce & M Hayes. 2019. Variation in head shape and color of slimy salamanders (*Plethodon glutinosus* complex) across the Gulf Coastal Plain, USA. *Copeia* 107(4): 694–700. [PDF](files/guyer-et-al-2019-copeia.pdf) [DOI](https://doi.org/10.1643/CH-18-169)
+
+<img src="images/indigo-release.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[13] **B Folt**, J Bauder, S Spear, D Stevenson, M Hoffman, J Oaks, PL Wood Jr, C Jenkins, D Steen, C Guyer. 2019. Taxonomic and conservation implications of population genetic admixture, mito-nuclear discordance, and male-biased dispersal of a large endangered snake, *Drymarchon couperi*. *PLoS ONE* 14(3): e0214439. [PDF](https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0214439) [DOI](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214439) [Data](https://figshare.com/articles/Taxonomic_and_conservation_implications_of_population_genetic_admixture_mito-nuclear_discordance_and_male-biased_dispersal_of_a_large_endangered_snake_Drymarchon_couperi/7637729) [Op-ed in the *Tallahassee Democrat*](https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/)
+
+[12] R Hopkins, **B Folt**. 2019. Screaming calls of *Leptodactylus savagei* (Smoky Jungle Frog) function as an alarm for conspecifics. *Journal of Herpetology* 53(2): 154–157. [PDF](files/hopkins-folt-2019.pdf) [DOI](https://doi.org/10.1670/18-083) [Data](https://figshare.com/articles/Screaming_calls_of_Leptodactylus_savagei_Smoky_Jungle_Frog_function_as_an_alarm_for_conspecifics/7568972)
+<img src="images/glassfrog.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+### <u>2018</u>
+
+[11] N Rivera, **B Folt**. 2018. Community assembly of glass frogs (Centrolenidae) in a Neotropical wet forest: a test of the river zonation hypothesis. *Journal of Tropical Ecology* 34: 108–120. [PDF](files/rivera-folt-2018-glassfrogs.pdf) [DOI](http://dx.doi.org/10.1017/S0266467418000068)
+
+<img src="images/oophaga-pumilio.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+[10] **B Folt**, MA Donnelly, C Guyer. 2018. Spatial patterns of *Oophaga pumilio* in a homogeneous plantation system are consistent with conspecific attraction. *Ecology and Evolution* 8: 2880–2889. [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748) [DOI](http://onlinelibrary.wiley.com/doi/10.1002/ece3.3748/full)
+
+
+### <u>2017</u>
+
+<img src="images/spider-lizard.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+[9] **B Folt**, W Lapinski. 2017. New observations of frog and lizard predation by wandering and orb-weaver spiders in Costa Rica. *Phyllomedusa* 16: 269–277. [PDF](files/folt-lapinski-2017.pdf) [DOI](http://dx.doi.org/10.11606/issn.2316-9079.v16i2p269-277)
+
+[8] JR Roberts, KM Halanych, CR Arias, **B Folt**, JM Goessling, SA Bullard. 2017. Emendation and new species of *Hapalorhynchus* Stunkard, 1922 (Digenea: Schistosomatoidea) from musk turtles (Kinosternidae: *Sternotherus*) in Alabama and Florida rivers. *Parasitology International* 66: 748–760. [PDF](files/roberts-et-al-2017-parasitology-international.pdf) [DOI](http://www.sciencedirect.com/science/article/pii/S1383576917302222)
+
+<img src="images/gator-snapper.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+### <u>2016</u>
+
+[7] **B Folt**, JB Jensen, A Teare, D Rostal. 2016. Establishing reference demography for conservation: A case study of *Macrochelys temminckii* in Spring Creek, Georgia. *Herpetological Monographs* 30: 21–33. [PDF](files/folt-et-al-2016-macrochelys.pdf)  [DOI](http://dx.doi.org/10.1655/HerpMonographs-D-15-00004)
+
+[6] **B Folt**, N Garrison, C Guyer, J Rodriguez, JE Bond. 2016. Phylogeography and evolution of the Red Salamander (*Pseudotriton ruber*). *Molecular Phylogenetics and Evolution* 98: 97–110. [PDF](files/folt-et-al-2016-mpe.pdf)  [DOI](http://dx.doi.org/10.1016/j.ympev.2016.01.016)
+<img src="images/pseudotriton1.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[5] JR Ennen, J Godwin, JE Lovich, BR Kreiser, **B Folt**, S Hazzard. 2016. Interdrainage morphological and genetic differences in the Escambia Map Turtle, *Graptemys ernsti*. *Herpetological Conservation and Biology* 11(1): 122–131. [PDF/DOI](http://www.herpconbio.org/Volume_11/Issue_1/Ennen_etal_2016.pdf)
+
+### <u>2015</u>
+
+[4] **B Folt**, C Guyer. 2015. Evaluating recent taxonomic changes for alligator snapping turtles (Testudines: Chelydridae). *Zootaxa* 3947(3): 447–450. [PDF](files/folt-guyer-2015.pdf)  [DOI](http://dx.doi.org/10.11646/zootaxa.3947.3.11)
+<img src="images/copeia-cover.jpg" style="width:15%; border:1px solid; margin-left: 15px" align="right">
+
+### <u>2014</u>
+
+[3] JC Godwin, JE Lovich, JR Ennen, B Kreiser, **B Folt**, C Lechowicz. 2014. Hybridization of two megacephalic map turtles (Testudines: Emydidae: *Graptemys*) in the Choctawhatchee River drainage of Alabama and Florida. *Copeia* 2014(4): 725–742. [PDF](files/godwin-et-al-2014-graptemys.pdf)  [DOI](http://dx.doi.org/10.1643/CH-13-132)
+
+### <u>2013</u>
+
+<img src="images/ccb-cover.jpg" style="width:15%; border:1px solid; margin-left: 15px" align="right">
+[2] **B Folt**, JC Godwin. 2013. Status of the Alligator Snapping Turtle (*Macrochelys temminckii*) in south Alabama with comments on its distribution. *Chelonian Conservation and Biology* 12(2): 211–217. [PDF](files/folt-godwin-2013-macrochelys.pdf)  [DOI](http://dx.doi.org/10.2744/CCB-1036.1)
+
+[1] **B Folt**, KE Reider. 2013. Leaf-litter herpetofaunal richness, abundance, and community assembly in mono-dominant plantations and primary forest of northeastern Costa Rica. *Biodiversity and Conservation* 22(9): 2057–2070. [PDF](files/folt-reider-2013-biodivconserv.pdf)  [DOI](http://dx.doi.org/10.1007/s10531-013-0526-0)
+
+### <u>Book chapters</u>
+
+[4] RGJ Rhodin, BY Villegas-Raygoza, **B Folt**, RA Mittermaier. 2024. IUCN Red List Assessment for *Kinosternon angustipons*. In press.
+
+<img src="images/reptiles-ohio.png" style="width:15%; border:1px solid; margin-left: 15px" align="right">
+
+[3] **B Folt**, PP van Dijk, A Rhodin, R Such. 2024 IUCN Red List Assessment for *Rhinoclemmys funerea*. In press.
+
+[2] **B Folt**. 2021. Eastern Fence Lizard *Sceloporus undulatus*. Pp. 335–344 in JG Davis, GJ Lipps Jr, D Wynn, BK Armitage, TO Matson, RA Pfingsten, C Caldwell (eds). Reptiles of Ohio. Ohio Biological Survey Bulletin New Series 20(1), 1112 pg.
+
+[1] **B Folt**, JG Davis. 2013. Blanchard’s Cricket Frog *Acris blanchardi* (Harper 1947). In: R Pfingsten, JG Davis, TO Matson, G Lipps Jr., D Wynn, BJ Armitage (eds) *Amphibians of Ohio*. Ohio Biological Survey Bulletin New Series 17(1).
+
+<img src="images/amphibians-ohio.jpg" style="width:15%; border:1px solid; margin-left: 15px" align="right">
+ 
+### <u>Natural history papers</u>
+
+C Sanspree, CM Murray, **B Folt**. 2016. *Macrochelys temminckii* (Alligator Snapping Turtle): predation. *Herpetological Review* 47(1): 124–5. [PDF](files/sanspree-et-al-2016-macrochelys-predation.pdf) 
+
+**B Folt**, D Laurencio, JM Goessling, RD Birkhead, J Stiles, S Stiles, S Belford, AT Harris. 2015. One hundred two new county records for amphibians and reptiles in Alabama. *Herpetological Review* 46(4): 591–594. [PDF](files/folt-et-al-2015-102-al-records.pdf) 
+
+C Ganong, **B Folt**. 2015. *Pristimantis cerasinus* (Clay-colored Rain Frog): mortality. *Herpetological Review* 46(3): 416.
+
+TW Pierson^, T Stratmann, EC White, AG Clause, C Carter, MW Herr, AJ Jenkins, H Vogel, M Knoerr, **B Folt**. 2014. New county records of amphibians and reptiles resulting from a bioblitz competition in north-central Georgia, USA. *Herpetological Review* 45(2): 296–297. [PDF](files/pierson-et-al-2014-ga-bioblitz.pdf) 
+
+SC Sterrett, JB Jensen, **B Folt**. 2014. *Graptemys barbouri* (Barbour’s Map Turtle): basking height. *Herpetological Review* 45(2): 314–31
+
+**B Folt**, T Pierson^, SM Goetz, J Goessling, D Laurencio, D Thompson^, SP Graham. 2013. Amphibians and reptiles of Jasper County, Mississippi with comments on the potentially extinct Bay Springs Salamander (*Plethodon ainsworthi*). *Herpetological Review* 44(2): 283–286. [PDF](files/folt-et-al-2013-ms-bioblitz.pdf) 
+
+**B Folt**, D Laurencio. 2013. *Agkistrodon contortrix* (Copperhead): diet. *Herpetological Review* 44(3): 517.
+
+**B Folt**, JR Folt, CR Brune. 2012. New county records for Ohio amphibians and reptiles. *Herpetological Review* 43(4): 624–625.
+
+**B Folt**. 2012. *Lithobates heckscheri* (River Frog): geographic distribution. *Herpetological Review* 43(1): 99.
+
+### <u>Outreach publications</u>
+
+**B Folt**. 2019. Op-ed: “Indigo Snake Releases are Guided by Strong Science and Conservation Ethic.” *The Tallahassee Democrat*. [Link](https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/)
+
+**B Folt**. 2014. Alligator Snapping Turtles: Ecology and Mythology in Alabama. *Alabama Wildlife Magazine*, July 2014. 44 pp. Article featured with cover photograph.
+
+<br>
+
+<!-- Simple Dark Blue Footer -->
+<div class="footer">
+  <p>&copy; 2024 Wildlife Decision-Support Shop. All rights reserved.</p>
+  </p>
+</div>

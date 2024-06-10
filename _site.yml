@@ -1,0 +1,25 @@
+name: "Wildlife Decision-Support Shop"
+output_dir: "."
+navbar:
+  title: '<img src="images/logo.png" alt="Lab Logo" style="height: 150px; display: block; margin: 0 auto;">'
+  href: index.html
+  left:
+    - text: "Members"
+      href: members.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Links"
+      menu:
+      - text: "Philosophy"
+        href: philosophy.html
+      - text: "Code of Conduct"
+        href: code_of_conduct.html
+      - text: "Prospective Students"
+        href: prospective_students.html
+  
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

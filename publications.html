@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>publications.knit</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Lab Logo" style="height: 150px; display: block; margin: 0 auto;"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="members.html">Members</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Links
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="philosophy.html">Philosophy</a>
+    </li>
+    <li>
+      <a href="code_of_conduct.html">Code of Conduct</a>
+    </li>
+    <li>
+      <a href="prospective_students.html">Prospective Students</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black;  line-height: 1.8;}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+.navbar {
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space out items */
+  align-items: start; /* Top vertical end */
+  #align-items: center; /* Center items vertically */
+  #align-items: flex-end; /* Lower vertical end */
+  height: 175px; /* Set specific height for navbar, adjust as needed */
+  background-color: #000033; /* Dark blue color */
+}
+.navbar-nav a {
+  text-decoration: none; /* Optional: remove underline from links */
+  color: black; /* Optional: set link color */
+}
+.navbar-nav li {
+  padding: 10px 0 0 0; /* Add padding to top of menu items */
+  padding: 0 10px; /* Optional: add padding to menu items */
+}
+/* Ensure the parent container is relatively positioned */
+.parent-container {
+  position: relative;
+}
+.footer {
+  background-color: #000033; /* Dark blue color */
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensure the footer spans the full width */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Align the footer to the left edge */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+.footer a {
+  color: white; /* Footer links color */
+  text-decoration: none; /* Remove underline from links */
+}
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+}</style>
+<p>Below are publications and PDF reprints from Brian Folt and the
+Wildlife Decision-Support Shop. Peer-reviewed publications are listed
+numerically and ordered by year.</p>
+<div id="in-the-pipeline-availailable-upon-request"
+class="section level3">
+<h3><u>In the pipeline (availailable upon request)</u></h3>
+<p>[i] <strong>B Folt</strong>, M Crabb, KA Schoenecker. Wild horse
+population growth rates across the western United States. In
+preparation.</p>
+<p><img src="images/desert_tortoise.png" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>[ii] SJ Hromada, <strong>B Folt</strong>, A Collins, J Dougherty, LJ
+Allison, KK Drake, TC Esque, J Freilich, JE Lovich, AM McLuckie, CI
+Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden,
+BG Dickson. An integrated survival model improves inference about
+historical patterns of survival in the Mojave desert tortoise. In
+preparation.</p>
+<p>[iii] <strong>B Folt</strong>, C Guyer. Integrated population
+modeling reveals leaf-drop phenology effects on vertebrate population
+dynamics. In preparation.</p>
+<p><img src="images/tort_genetics.png" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div id="section" class="section level3">
+<h3><u>2024</u></h3>
+<p>[27] C Guyer, JM Goessling, <strong>B Folt</strong>. Annual and
+lifetime home ranges reveal movement patterns within and among local
+populations of gopher tortoises. <em>Chelonian Conservation and
+Biology</em>, in press.</p>
+<p>[26] AR Krohn, <strong>B Folt</strong>, JJ Apodaca, C Guyer, J
+Goessling. 2024. Using genomic data to estimate population structure and
+health for gopher tortoises. <em>Conservation Genetics</em>, in press.
+<a href="https://doi.org/10.1007/s10592-024-01601-1">DOI</a> <a
+href="files/krohn_et_al_2024_tortoises.pdf">PDF</a></p>
+</div>
+<div id="section-1" class="section level3">
+<h3><u>2023</u></h3>
+<p>[25] <strong>B Folt</strong>, KA Schoenecker, LS Ekernas, DR Edmunds,
+M Hannon. 2023. <em>PopEquus</em>: a predictive modeling tool to support
+management decisions for free-roaming horse populations.
+<em>Ecosphere</em> e4632. <a
+href="https://doi.org/10.1002/ecs2.4632">DOI</a> - <a
+href="files/folt-et-al-2023-ecosphere.pdf">PDF</a> - <a
+href="https://doi.org/10.5066/P9HVUA6D">Software</a> - <a
+href="https://rconnect.usgs.gov/popequus/">Application</a></p>
+<p><img src="images/popequus.png" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>[Software] <strong>B Folt</strong>, LS Ekernas, DR Edmunds, M Hannon,
+KA Schoenecker. 2023. <em>PopEquus</em>: A Predictive Modeling Tool to
+Support Management Decisions for Free-roaming Horse Populations: U.S.
+Geological Survey software release, <a
+href="https://doi.org/10.5066/P9NMRQDG">https://doi.org/10.5066/P9NMRQDG</a>.
+<a href="https://rconnect.usgs.gov/popequus/">Web app</a>. Press
+Releases: <a
+href="https://www.blm.gov/press-release/new-tool-models-future-wild-horses-public-lands">BLM</a>,
+<a
+href="https://www.usgs.gov/news/national-news-release/new-tool-models-future-wild-horses-public-lands">USGS</a></p>
+<p><img src="images/wild-horses-cropped.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div id="section-2" class="section level3">
+<h3><u>2022</u></h3>
+<p>[24] <strong>B Folt</strong>, K Schoenecker, LS Ekernas. 2022.
+Multi-objective modeling as a decision-support tool for free-roaming
+horse management. <em>Human-Wildlife Interactions</em>. <a
+href="files/folt-et-al-2022-hwi.pdf">PDF</a> <a
+href="https://doi.org/10.5066/P9HRF1H9">Software</a></p>
+<p>[23] <strong>B Folt</strong>, M Marshall, JA Emmanuel, M Dziadzio, J
+Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan.
+2022. Using predictions from multiple anthropogenic threats to estimate
+future population persistence of an imperiled species. <em>Global
+Ecology and Conservation</em> 36: e02143. <a
+href="files/folt-et-al-2022-tortoise-pva.pdf">PDF</a> <a
+href="https://doi.org/10.1016/j.gecco.2022.e02143">DOI</a></p>
+<p><img src="images/gopher_tortoise.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div id="section-3" class="section level3">
+<h3><u>2021</u></h3>
+<p>[22] AJ Lawson, <strong>B Folt</strong>, AM Tucker, F Erickson, CP
+McGowan. 2021. Decision context as a necessary component of population
+viability analysis appraisal. <em>Conservation Biology</em> 35(5):
+1683–1685. <a href="files/lawson-et-al-2021-conbio.pdf">PDF</a> <a
+href="https://doi.org/10.1111/cobi.13818">DOI</a></p>
+<p>[21] <strong>B Folt</strong>, C Guyer. 2021. Habitat-dependent
+effects of predators on prey frogs in a Neotropical wet forest.
+<em>Journal of Tropical Ecology</em> 37(5): 214-221. <a
+href="files/folt-and-guyer-2021-spiders.pdf">PDF</a> <a
+href="https://doi.org/10.1017/S0266467421000274">DOI</a></p>
+<p><img src="images/jwm-cover.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>[20] T Mitchell, <strong>B Folt</strong>, J Hall. 2021. Dumpsters and
+other anthropogenic structures as habitat for invasive African rock
+agama lizards in Florida. <em>Biological Invasions</em> 23: 2689–2693.
+<a href="files/mitchell-et-al-2021-agamas.pdf">PDF</a> <a
+href="https://doi.org/10.1007/s10530-021-02537-0">DOI</a></p>
+<p>[19] <strong>B Folt</strong>, J Goessling, AM Tucker, C Guyer, S
+Hermann, E Shelton-Nix, CP McGowan. 2021. Contrasting patterns of
+demography and population viability among gopher tortoise populations in
+Alabama. <em>Journal of Wildlife Management</em> 85(4): 617–630. <a
+href="files/folt-et-al-2021-jwm.pdf">PDF</a> <a
+href="https://doi.org/10.1002/jwmg.21996">DOI</a></p>
+</div>
+<div id="section-4" class="section level3">
+<h3><u>2020</u></h3>
+<p>[18] <strong>B Folt</strong>. 2020. Population demography of
+<em>Rhinoclemmys funerea</em> (Black River Turtle) at a protected forest
+reserve in Costa Rica. <em>Herpetological Conservation and Biology</em>
+15(3):611–619. <a href="files/folt-2020-rhinoclemmys.pdf">PDF</a> <a
+href="https://www.herpconbio.org">DOI</a></p>
+<p>[17] R Etzel, M Cornish, MS Kifer, L Nuñez, G Valladao, <strong>B
+Folt</strong>. 2020. Subterranean advertisement and duet calling
+behavior in <em>Ptychohyla legleri</em> (Legler’s Stream Frog).
+<em>Alytes</em> 37(3–4): 57–61. <a
+href="files/etzel-et-al-2020-ptychohyla.pdf">PDF</a> <a
+href="https://figshare.com/articles/Calling_Behavior_of_Ptychohyla_legleri_Legler_s_Stream_Frog_/11797191">Data</a></p>
+<p><img src="images/indigo.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>[16] <strong>B Folt</strong>, CP McGowan, DA Steen, S Piccolomini, M
+Hoffman, J Godwin, C Guyer. 2020. Modeling strategies and evaluating
+success during repatriations of elusive and endangered species.
+<em>Animal Conservation</em> 23: 273–285. <a
+href="files/folt-et-al-2019-animal-conservation.pdf">PDF</a> <a
+href="https://doi.org/10.1111/acv.12537">DOI</a> <a
+href="https://github.com/brianf0lt/indigo-repatriation-model">Code</a></p>
+</div>
+<div id="section-5" class="section level3">
+<h3><u>2019</u></h3>
+<p>[15] C Guyer, <strong>B Folt</strong>, M Hoffman, J Bauder, D
+Stevenson, S Goetz, M Miller, J Godwin. 2019. Patterns of head shape and
+scutellation in <em>Drymarchon couperi</em> (Squamata: Colubridae)
+reveal a single morphological species. <em>Zootaxa</em> 4695(2):
+168–174. <a href="files/guyer-et-al-2019-zootaxa.pdf">PDF</a> <a
+href="http://dx.doi.org/10.11646/zootaxa.4695.2.6">DOI</a></p>
+<p>[14] C Guyer, S Goetz, <strong>B Folt</strong>, K Joyce &amp; M
+Hayes. 2019. Variation in head shape and color of slimy salamanders
+(<em>Plethodon glutinosus</em> complex) across the Gulf Coastal Plain,
+USA. <em>Copeia</em> 107(4): 694–700. <a
+href="files/guyer-et-al-2019-copeia.pdf">PDF</a> <a
+href="https://doi.org/10.1643/CH-18-169">DOI</a></p>
+<p><img src="images/indigo-release.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>[13] <strong>B Folt</strong>, J Bauder, S Spear, D Stevenson, M
+Hoffman, J Oaks, PL Wood Jr, C Jenkins, D Steen, C Guyer. 2019.
+Taxonomic and conservation implications of population genetic admixture,
+mito-nuclear discordance, and male-biased dispersal of a large
+endangered snake, <em>Drymarchon couperi</em>. <em>PLoS ONE</em> 14(3):
+e0214439. <a
+href="https://journals.plos.org/plosone/article/file?type=printable&amp;id=10.1371/journal.pone.0214439">PDF</a>
+<a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214439">DOI</a>
+<a
+href="https://figshare.com/articles/Taxonomic_and_conservation_implications_of_population_genetic_admixture_mito-nuclear_discordance_and_male-biased_dispersal_of_a_large_endangered_snake_Drymarchon_couperi/7637729">Data</a>
+<a
+href="https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/">Op-ed
+in the <em>Tallahassee Democrat</em></a></p>
+<p>[12] R Hopkins, <strong>B Folt</strong>. 2019. Screaming calls of
+<em>Leptodactylus savagei</em> (Smoky Jungle Frog) function as an alarm
+for conspecifics. <em>Journal of Herpetology</em> 53(2): 154–157. <a
+href="files/hopkins-folt-2019.pdf">PDF</a> <a
+href="https://doi.org/10.1670/18-083">DOI</a> <a
+href="https://figshare.com/articles/Screaming_calls_of_Leptodactylus_savagei_Smoky_Jungle_Frog_function_as_an_alarm_for_conspecifics/7568972">Data</a>
+<img src="images/glassfrog.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div id="section-6" class="section level3">
+<h3><u>2018</u></h3>
+<p>[11] N Rivera, <strong>B Folt</strong>. 2018. Community assembly of
+glass frogs (Centrolenidae) in a Neotropical wet forest: a test of the
+river zonation hypothesis. <em>Journal of Tropical Ecology</em> 34:
+108–120. <a href="files/rivera-folt-2018-glassfrogs.pdf">PDF</a> <a
+href="http://dx.doi.org/10.1017/S0266467418000068">DOI</a></p>
+<p><img src="images/oophaga-pumilio.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+[10] <strong>B Folt</strong>, MA Donnelly, C Guyer. 2018. Spatial
+patterns of <em>Oophaga pumilio</em> in a homogeneous plantation system
+are consistent with conspecific attraction. <em>Ecology and
+Evolution</em> 8: 2880–2889. <a
+href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748">PDF</a>
+<a
+href="http://onlinelibrary.wiley.com/doi/10.1002/ece3.3748/full">DOI</a></p>
+</div>
+<div id="section-7" class="section level3">
+<h3><u>2017</u></h3>
+<p><img src="images/spider-lizard.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+[9] <strong>B Folt</strong>, W Lapinski. 2017. New observations of frog
+and lizard predation by wandering and orb-weaver spiders in Costa Rica.
+<em>Phyllomedusa</em> 16: 269–277. <a
+href="files/folt-lapinski-2017.pdf">PDF</a> <a
+href="http://dx.doi.org/10.11606/issn.2316-9079.v16i2p269-277">DOI</a></p>
+<p>[8] JR Roberts, KM Halanych, CR Arias, <strong>B Folt</strong>, JM
+Goessling, SA Bullard. 2017. Emendation and new species of
+<em>Hapalorhynchus</em> Stunkard, 1922 (Digenea: Schistosomatoidea) from
+musk turtles (Kinosternidae: <em>Sternotherus</em>) in Alabama and
+Florida rivers. <em>Parasitology International</em> 66: 748–760. <a
+href="files/roberts-et-al-2017-parasitology-international.pdf">PDF</a>
+<a
+href="http://www.sciencedirect.com/science/article/pii/S1383576917302222">DOI</a></p>
+<p><img src="images/gator-snapper.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div id="section-8" class="section level3">
+<h3><u>2016</u></h3>
+<p>[7] <strong>B Folt</strong>, JB Jensen, A Teare, D Rostal. 2016.
+Establishing reference demography for conservation: A case study of
+<em>Macrochelys temminckii</em> in Spring Creek, Georgia.
+<em>Herpetological Monographs</em> 30: 21–33. <a
+href="files/folt-et-al-2016-macrochelys.pdf">PDF</a> <a
+href="http://dx.doi.org/10.1655/HerpMonographs-D-15-00004">DOI</a></p>
+<p>[6] <strong>B Folt</strong>, N Garrison, C Guyer, J Rodriguez, JE
+Bond. 2016. Phylogeography and evolution of the Red Salamander
+(<em>Pseudotriton ruber</em>). <em>Molecular Phylogenetics and
+Evolution</em> 98: 97–110. <a
+href="files/folt-et-al-2016-mpe.pdf">PDF</a> <a
+href="http://dx.doi.org/10.1016/j.ympev.2016.01.016">DOI</a>
+<img src="images/pseudotriton1.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>[5] JR Ennen, J Godwin, JE Lovich, BR Kreiser, <strong>B
+Folt</strong>, S Hazzard. 2016. Interdrainage morphological and genetic
+differences in the Escambia Map Turtle, <em>Graptemys ernsti</em>.
+<em>Herpetological Conservation and Biology</em> 11(1): 122–131. <a
+href="http://www.herpconbio.org/Volume_11/Issue_1/Ennen_etal_2016.pdf">PDF/DOI</a></p>
+</div>
+<div id="section-9" class="section level3">
+<h3><u>2015</u></h3>
+<p>[4] <strong>B Folt</strong>, C Guyer. 2015. Evaluating recent
+taxonomic changes for alligator snapping turtles (Testudines:
+Chelydridae). <em>Zootaxa</em> 3947(3): 447–450. <a
+href="files/folt-guyer-2015.pdf">PDF</a> <a
+href="http://dx.doi.org/10.11646/zootaxa.3947.3.11">DOI</a>
+<img src="images/copeia-cover.jpg" style="width:15%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div id="section-10" class="section level3">
+<h3><u>2014</u></h3>
+<p>[3] JC Godwin, JE Lovich, JR Ennen, B Kreiser, <strong>B
+Folt</strong>, C Lechowicz. 2014. Hybridization of two megacephalic map
+turtles (Testudines: Emydidae: <em>Graptemys</em>) in the Choctawhatchee
+River drainage of Alabama and Florida. <em>Copeia</em> 2014(4): 725–742.
+<a href="files/godwin-et-al-2014-graptemys.pdf">PDF</a> <a
+href="http://dx.doi.org/10.1643/CH-13-132">DOI</a></p>
+</div>
+<div id="section-11" class="section level3">
+<h3><u>2013</u></h3>
+<p><img src="images/ccb-cover.jpg" style="width:15%; border:1px solid; margin-left: 15px" align="right">
+[2] <strong>B Folt</strong>, JC Godwin. 2013. Status of the Alligator
+Snapping Turtle (<em>Macrochelys temminckii</em>) in south Alabama with
+comments on its distribution. <em>Chelonian Conservation and
+Biology</em> 12(2): 211–217. <a
+href="files/folt-godwin-2013-macrochelys.pdf">PDF</a> <a
+href="http://dx.doi.org/10.2744/CCB-1036.1">DOI</a></p>
+<p>[1] <strong>B Folt</strong>, KE Reider. 2013. Leaf-litter
+herpetofaunal richness, abundance, and community assembly in
+mono-dominant plantations and primary forest of northeastern Costa Rica.
+<em>Biodiversity and Conservation</em> 22(9): 2057–2070. <a
+href="files/folt-reider-2013-biodivconserv.pdf">PDF</a> <a
+href="http://dx.doi.org/10.1007/s10531-013-0526-0">DOI</a></p>
+</div>
+<div id="book-chapters" class="section level3">
+<h3><u>Book chapters</u></h3>
+<p>[4] RGJ Rhodin, BY Villegas-Raygoza, <strong>B Folt</strong>, RA
+Mittermaier. 2024. IUCN Red List Assessment for <em>Kinosternon
+angustipons</em>. In press.</p>
+<p><img src="images/reptiles-ohio.png" style="width:15%; border:1px solid; margin-left: 15px" align="right"></p>
+<p>[3] <strong>B Folt</strong>, PP van Dijk, A Rhodin, R Such. 2024 IUCN
+Red List Assessment for <em>Rhinoclemmys funerea</em>. In press.</p>
+<p>[2] <strong>B Folt</strong>. 2021. Eastern Fence Lizard
+<em>Sceloporus undulatus</em>. Pp. 335–344 in JG Davis, GJ Lipps Jr, D
+Wynn, BK Armitage, TO Matson, RA Pfingsten, C Caldwell (eds). Reptiles
+of Ohio. Ohio Biological Survey Bulletin New Series 20(1), 1112 pg.</p>
+<p>[1] <strong>B Folt</strong>, JG Davis. 2013. Blanchard’s Cricket Frog
+<em>Acris blanchardi</em> (Harper 1947). In: R Pfingsten, JG Davis, TO
+Matson, G Lipps Jr., D Wynn, BJ Armitage (eds) <em>Amphibians of
+Ohio</em>. Ohio Biological Survey Bulletin New Series 17(1).</p>
+<p><img src="images/amphibians-ohio.jpg" style="width:15%; border:1px solid; margin-left: 15px" align="right"></p>
+</div>
+<div id="natural-history-papers" class="section level3">
+<h3><u>Natural history papers</u></h3>
+<p>C Sanspree, CM Murray, <strong>B Folt</strong>. 2016. <em>Macrochelys
+temminckii</em> (Alligator Snapping Turtle): predation.
+<em>Herpetological Review</em> 47(1): 124–5. <a
+href="files/sanspree-et-al-2016-macrochelys-predation.pdf">PDF</a></p>
+<p><strong>B Folt</strong>, D Laurencio, JM Goessling, RD Birkhead, J
+Stiles, S Stiles, S Belford, AT Harris. 2015. One hundred two new county
+records for amphibians and reptiles in Alabama. <em>Herpetological
+Review</em> 46(4): 591–594. <a
+href="files/folt-et-al-2015-102-al-records.pdf">PDF</a></p>
+<p>C Ganong, <strong>B Folt</strong>. 2015. <em>Pristimantis
+cerasinus</em> (Clay-colored Rain Frog): mortality. <em>Herpetological
+Review</em> 46(3): 416.</p>
+<p>TW Pierson^, T Stratmann, EC White, AG Clause, C Carter, MW Herr, AJ
+Jenkins, H Vogel, M Knoerr, <strong>B Folt</strong>. 2014. New county
+records of amphibians and reptiles resulting from a bioblitz competition
+in north-central Georgia, USA. <em>Herpetological Review</em> 45(2):
+296–297. <a href="files/pierson-et-al-2014-ga-bioblitz.pdf">PDF</a></p>
+<p>SC Sterrett, JB Jensen, <strong>B Folt</strong>. 2014. <em>Graptemys
+barbouri</em> (Barbour’s Map Turtle): basking height. <em>Herpetological
+Review</em> 45(2): 314–31</p>
+<p><strong>B Folt</strong>, T Pierson^, SM Goetz, J Goessling, D
+Laurencio, D Thompson^, SP Graham. 2013. Amphibians and reptiles of
+Jasper County, Mississippi with comments on the potentially extinct Bay
+Springs Salamander (<em>Plethodon ainsworthi</em>). <em>Herpetological
+Review</em> 44(2): 283–286. <a
+href="files/folt-et-al-2013-ms-bioblitz.pdf">PDF</a></p>
+<p><strong>B Folt</strong>, D Laurencio. 2013. <em>Agkistrodon
+contortrix</em> (Copperhead): diet. <em>Herpetological Review</em>
+44(3): 517.</p>
+<p><strong>B Folt</strong>, JR Folt, CR Brune. 2012. New county records
+for Ohio amphibians and reptiles. <em>Herpetological Review</em> 43(4):
+624–625.</p>
+<p><strong>B Folt</strong>. 2012. <em>Lithobates heckscheri</em> (River
+Frog): geographic distribution. <em>Herpetological Review</em> 43(1):
+99.</p>
+</div>
+<div id="outreach-publications" class="section level3">
+<h3><u>Outreach publications</u></h3>
+<p><strong>B Folt</strong>. 2019. Op-ed: “Indigo Snake Releases are
+Guided by Strong Science and Conservation Ethic.” <em>The Tallahassee
+Democrat</em>. <a
+href="https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/">Link</a></p>
+<p><strong>B Folt</strong>. 2014. Alligator Snapping Turtles: Ecology
+and Mythology in Alabama. <em>Alabama Wildlife Magazine</em>, July 2014.
+44 pp. Article featured with cover photograph.</p>
+<p><br></p>
+<!-- Simple Dark Blue Footer -->
+<div class="footer">
+<p>
+© 2024 Wildlife Decision-Support Shop. All rights reserved.
+</p>
+</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
