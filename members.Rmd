@@ -73,6 +73,6 @@ We will be hiring a research scientist (post-MS, or post-PhD) to help measure un
 
 <!-- Simple Dark Blue Footer -->
 <div class="footer">
-  <p>&copy; 2024 Wildlife Decision-Support Shop. All rights reserved.</p>
+  <p> Copyright &copy; Brian Folt, 2024--present. All rights reserved.</p>
   </p>
 </div>
