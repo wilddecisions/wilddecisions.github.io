@@ -57,43 +57,47 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 Below are publications and PDF reprints from Brian Folt and the Wildlife Decision-Support Shop. Peer-reviewed publications are listed numerically and ordered by year. 
 
-### <u>In the pipeline (availailable upon request)</u>
+### <u>In preparation (draft availailable upon request)</u>
 
-[i] **B Folt**, M Crabb, KA Schoenecker. Wild horse population growth rates across the western United States. In preparation.
+[i] **B Folt**, M Crabb, KA Schoenecker. Factors influencing wild horse population growth rates across the western United States. In preparation.
 
 <img src="images/desert_tortoise.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
-[ii] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. In preparation.
+[ii] K Grimm, **B Folt**, A Collins, M Standen, M Spangler, B Dickson. Applying knowledge co-production to identify Mojave desert tortoise stressors across time, space, and agency missions. Under review.
 
-[iii] **B Folt**, C Guyer. Integrated population modeling reveals leaf-drop phenology effects on vertebrate population dynamics. In preparation.
+[iii] A Robillard, M Standen, N Giebink, M Spangler, AC Collins, **B Folt**, A Maguire, B Dickson. Application of computer vision for off-highway vehicle route detection in threatened Mojave desert tortoise habitat. In preparation.
+
+[iv] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. In preparation.
 
 <img src="images/tort_genetics.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 ### <u>2024</u>
 
-[27] C Guyer, JM Goessling, **B Folt**. Annual and lifetime home ranges reveal movement patterns within and among local populations of gopher tortoises. *Chelonian Conservation and Biology*, in press.
+[27] C Guyer, JM Goessling, **B Folt**. Annual and lifetime home ranges reveal movement patterns within and among local populations of gopher tortoises. *Chelonian Conservation and Biology* 23(1):81--91. [PDF](files/guyer-et-al-2024-tortoises-CCB.pdf) [DOI](https://doi.org/10.2744/CCB-1603.1)
 
-[26] AR Krohn, **B Folt**, JJ Apodaca, C Guyer, J Goessling. 2024. Using genomic data to estimate population structure and health for gopher tortoises. *Conservation Genetics*, in press. [DOI](https://doi.org/10.1007/s10592-024-01601-1) [PDF](files/krohn_et_al_2024_tortoises.pdf) 
+[26] AR Krohn, **B Folt**, JJ Apodaca, C Guyer, J Goessling. 2024. Using genomic data to estimate population structure and health for gopher tortoises. *Conservation Genetics* 25:755--770. [PDF](files/krohn_et_al_2024_tortoises.pdf) [DOI](https://doi.org/10.1007/s10592-024-01601-1)
 
 ### <u>2023</u>
 
-[25]	**B Folt**, KA Schoenecker, LS Ekernas, DR Edmunds, M Hannon. 2023. *PopEquus*: a predictive modeling tool to support management decisions for free-roaming horse populations. *Ecosphere* e4632. [DOI](https://doi.org/10.1002/ecs2.4632) - [PDF](files/folt-et-al-2023-ecosphere.pdf) - [Software](https://doi.org/10.5066/P9HVUA6D) - [Application](https://rconnect.usgs.gov/popequus/)
+<img src="images/wild-horses-cropped.JPG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[25]	**B Folt**, KA Schoenecker, LS Ekernas, DR Edmunds, M Hannon. 2023. *PopEquus*: a predictive modeling tool to support management decisions for free-roaming horse populations. *Ecosphere* e4632. [PDF](files/folt-et-al-2023-ecosphere.pdf) - [DOI](https://doi.org/10.1002/ecs2.4632) - [Software](https://doi.org/10.5066/P9HVUA6D) - [Application](https://rconnect.usgs.gov/popequus/)
 
 <img src="images/popequus.PNG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 [Software] **B Folt**, LS Ekernas, DR Edmunds, M Hannon, KA Schoenecker. 2023. *PopEquus*: A Predictive Modeling Tool to Support Management Decisions for Free-roaming Horse Populations: U.S. Geological Survey software release, [https://doi.org/10.5066/P9NMRQDG](https://doi.org/10.5066/P9NMRQDG). [Web app](https://rconnect.usgs.gov/popequus/). Press Releases: [BLM](https://www.blm.gov/press-release/new-tool-models-future-wild-horses-public-lands), [USGS](https://www.usgs.gov/news/national-news-release/new-tool-models-future-wild-horses-public-lands)
 
-<img src="images/wild-horses-cropped.JPG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
-
 ### <u>2022</u>
 
-[24] **B Folt**, K Schoenecker, LS Ekernas. 2022. Multi-objective modeling as a decision-support tool for free-roaming horse management. *Human-Wildlife Interactions* 16(2):233–250. [DOI](https://doi.org/10.26077/a6e8-0759) [PDF](files/folt-et-al-2022-hwi.pdf) [Software](https://doi.org/10.5066/P9HRF1H9)
-
-[23] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2022. Using predictions from multiple anthropogenic threats to estimate future population persistence of an imperiled species. *Global Ecology and Conservation* 36: e02143. [PDF](files/folt-et-al-2022-tortoise-pva.pdf) [DOI](https://doi.org/10.1016/j.gecco.2022.e02143)
+[24] **B Folt**, K Schoenecker, LS Ekernas. 2022. Multi-objective modeling as a decision-support tool for free-roaming horse management. *Human-Wildlife Interactions*. [PDF](files/folt-et-al-2022-hwi.pdf) [Software](https://doi.org/10.5066/P9HRF1H9)
 
 <img src="images/gopher_tortoise.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
+[23] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2022. Using predictions from multiple anthropogenic threats to estimate future population persistence of an imperiled species. *Global Ecology and Conservation* 36: e02143. [PDF](files/folt-et-al-2022-tortoise-pva.pdf) [DOI](https://doi.org/10.1016/j.gecco.2022.e02143) 
+
 ### <u>2021</u>
+
+<img src="images/WL110573.JPG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 [22] AJ Lawson, **B Folt**, AM Tucker, F Erickson, CP McGowan. 2021. Decision context as a necessary component of population viability analysis appraisal. *Conservation Biology* 35(5): 1683–1685. [PDF](files/lawson-et-al-2021-conbio.pdf) [DOI](https://doi.org/10.1111/cobi.13818) 
 
@@ -109,7 +113,7 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 [18] **B Folt**. 2020. Population demography of *Rhinoclemmys funerea* (Black River Turtle) at a protected forest reserve in Costa Rica. *Herpetological Conservation and Biology* 15(3):611–619. [PDF](files/folt-2020-rhinoclemmys.pdf) [DOI](https://www.herpconbio.org)
 
-[17] R Etzel, M Cornish, MS Kifer, L Nuñez, G Valladao, **B Folt**. 2020. Subterranean advertisement and duet calling behavior in *Ptychohyla legleri* (Legler’s Stream Frog). *Alytes* 37(3–4): 57–61. [PDF](files/etzel-et-al-2020-ptychohyla.pdf) [Data](https://figshare.com/articles/Calling_Behavior_of_Ptychohyla_legleri_Legler_s_Stream_Frog_/11797191)
+[17] R Etzel^, M Cornish^, MS Kifer^, L Nuñez, G Valladao^, **B Folt**. 2020. Subterranean advertisement and duet calling behavior in *Ptychohyla legleri* (Legler’s Stream Frog). *Alytes* 37(3–4): 57–61. [PDF](files/etzel-et-al-2020-ptychohyla.pdf) [Data](https://figshare.com/articles/Calling_Behavior_of_Ptychohyla_legleri_Legler_s_Stream_Frog_/11797191)
 
 <img src="images/indigo.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
@@ -119,18 +123,18 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 [15] C Guyer, **B Folt**, M Hoffman, J Bauder, D Stevenson, S Goetz, M Miller, J Godwin. 2019. Patterns of head shape and scutellation in *Drymarchon couperi* (Squamata: Colubridae) reveal a single morphological species. *Zootaxa* 4695(2): 168–174. [PDF](files/guyer-et-al-2019-zootaxa.pdf) [DOI](http://dx.doi.org/10.11646/zootaxa.4695.2.6)
 
-[14] C Guyer, S Goetz, **B Folt**, K Joyce & M Hayes. 2019. Variation in head shape and color of slimy salamanders (*Plethodon glutinosus* complex) across the Gulf Coastal Plain, USA. *Copeia* 107(4): 694–700. [PDF](files/guyer-et-al-2019-copeia.pdf) [DOI](https://doi.org/10.1643/CH-18-169)
+[14] C Guyer, S Goetz, **B Folt**, K Joyce^ & M Hayes. 2019. Variation in head shape and color of slimy salamanders (*Plethodon glutinosus* complex) across the Gulf Coastal Plain, USA. *Copeia* 107(4): 694–700. [PDF](files/guyer-et-al-2019-copeia.pdf) [DOI](https://doi.org/10.1643/CH-18-169)
 
 <img src="images/indigo-release.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 [13] **B Folt**, J Bauder, S Spear, D Stevenson, M Hoffman, J Oaks, PL Wood Jr, C Jenkins, D Steen, C Guyer. 2019. Taxonomic and conservation implications of population genetic admixture, mito-nuclear discordance, and male-biased dispersal of a large endangered snake, *Drymarchon couperi*. *PLoS ONE* 14(3): e0214439. [PDF](https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0214439) [DOI](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214439) [Data](https://figshare.com/articles/Taxonomic_and_conservation_implications_of_population_genetic_admixture_mito-nuclear_discordance_and_male-biased_dispersal_of_a_large_endangered_snake_Drymarchon_couperi/7637729) [Op-ed in the *Tallahassee Democrat*](https://www.tallahassee.com/story/opinion/2019/03/31/indigo-snake-releases-guided-strong-science-conservation-ethic/3313120002/)
 
-[12] R Hopkins, **B Folt**. 2019. Screaming calls of *Leptodactylus savagei* (Smoky Jungle Frog) function as an alarm for conspecifics. *Journal of Herpetology* 53(2): 154–157. [PDF](files/hopkins-folt-2019.pdf) [DOI](https://doi.org/10.1670/18-083) [Data](https://figshare.com/articles/Screaming_calls_of_Leptodactylus_savagei_Smoky_Jungle_Frog_function_as_an_alarm_for_conspecifics/7568972)
+[12] R Hopkins^, **B Folt**. 2019. Screaming calls of *Leptodactylus savagei* (Smoky Jungle Frog) function as an alarm for conspecifics. *Journal of Herpetology* 53(2): 154–157. [PDF](files/hopkins-folt-2019.pdf) [DOI](https://doi.org/10.1670/18-083) [Data](https://figshare.com/articles/Screaming_calls_of_Leptodactylus_savagei_Smoky_Jungle_Frog_function_as_an_alarm_for_conspecifics/7568972)
 <img src="images/glassfrog.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 ### <u>2018</u>
 
-[11] N Rivera, **B Folt**. 2018. Community assembly of glass frogs (Centrolenidae) in a Neotropical wet forest: a test of the river zonation hypothesis. *Journal of Tropical Ecology* 34: 108–120. [PDF](files/rivera-folt-2018-glassfrogs.pdf) [DOI](http://dx.doi.org/10.1017/S0266467418000068)
+[11] N Rivera^, **B Folt**. 2018. Community assembly of glass frogs (Centrolenidae) in a Neotropical wet forest: a test of the river zonation hypothesis. *Journal of Tropical Ecology* 34: 108–120. [PDF](files/rivera-folt-2018-glassfrogs.pdf) [DOI](http://dx.doi.org/10.1017/S0266467418000068)
 
 <img src="images/oophaga-pumilio.jpg" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 [10] **B Folt**, MA Donnelly, C Guyer. 2018. Spatial patterns of *Oophaga pumilio* in a homogeneous plantation system are consistent with conspecific attraction. *Ecology and Evolution* 8: 2880–2889. [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.3748) [DOI](http://onlinelibrary.wiley.com/doi/10.1002/ece3.3748/full)
