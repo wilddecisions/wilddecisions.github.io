@@ -55,7 +55,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 }
 }</style>
 
-This page describes Brian Folt's personal philosophy toward research, teaching, and mentorship in the field of applied wildlife ecology.
+This page describes Brian Folt's personal philosophy toward research, teaching, and mentorship in the field of applied ecology.
 
 ## [**Philosophy**]{.ul}
 
