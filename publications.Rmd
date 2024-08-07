@@ -67,11 +67,13 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 [iii] A Robillard, M Standen, N Giebink, M Spangler, AC Collins, **B Folt**, A Maguire, B Dickson. Application of computer vision for off-highway vehicle route detection in threatened Mojave desert tortoise habitat. In preparation.
 
-[iv] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. In preparation.
+[iv] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, E Hunter, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. In preparation.
 
 <img src="images/tort_genetics.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 ### <u>2024</u>
+
+[28] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2024. Strengths and opportunities in gopher tortoise population modeling: Reply to Loope et al. *Global Ecology and Conservation*, e03093. [PDF](files/folt-et-al-2024-gopher-tortoises.pdf) [DOI](https://doi.org/10.1016/j.gecco.2024.e03093).
 
 [27] C Guyer, JM Goessling, **B Folt**. Annual and lifetime home ranges reveal movement patterns within and among local populations of gopher tortoises. *Chelonian Conservation and Biology* 23(1):81--91. [PDF](files/guyer-et-al-2024-tortoises-CCB.pdf) [DOI](https://doi.org/10.2744/CCB-1603.1)
 
