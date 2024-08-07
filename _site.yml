@@ -4,8 +4,12 @@ navbar:
   title: '<img src="images/logo.png" alt="Lab Logo" style="height: 150px; display: block; margin: 0 auto;">'
   href: index.html
   left:
-    - text: "Members"
-      href: members.html
+    - text: "People"
+      menu:
+      - text: "Who We Are"
+        href: members.html
+      - text: "Opportunities"
+        href: opportunities.html
     - text: "Research"
       href: research.html
     - text: "Publications"

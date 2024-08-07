@@ -1,0 +1,68 @@
+---
+output:
+  html_document:
+    theme: yeti
+---
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black;  line-height: 1.8;}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black; font-weight: bold;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+.navbar {
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space out items */
+  align-items: start; /* Top vertical end */
+  #align-items: center; /* Center items vertically */
+  #align-items: flex-end; /* Lower vertical end */
+  height: 175px; /* Set specific height for navbar, adjust as needed */
+  background-color: #000033; /* Dark blue color */
+}
+.navbar-nav a {
+  text-decoration: none; /* Optional: remove underline from links */
+  color: black; /* Optional: set link color */
+}
+.navbar-nav li {
+  padding: 10px 0 0 0; /* Add padding to top of menu items */
+  padding: 0 10px; /* Optional: add padding to menu items */
+}
+/* Ensure the parent container is relatively positioned */
+.parent-container {
+  position: relative;
+}
+.footer {
+  background-color: #000033; /* Dark blue color */
+  color: white;
+  text-align: center;
+  padding: 20px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensure the footer spans the full width */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Align the footer to the left edge */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+.footer a {
+  color: white; /* Footer links color */
+  text-decoration: none; /* Remove underline from links */
+}
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+}</style>
+
+### [**Post-doctoral Researcher**]{.ul}
+
+We are recruiting a **post-doctoral researcher** to help measure ungulate migration behavior and corridors in Nevada and co-produce decision-support science for the Nevada Department of Wildlife. A job advertisement is [here](files/jobad_ungulate_migration_postdoc.pdf). Please reach out if you are interested!
+
+<br>
+
+<!-- Simple Dark Blue Footer -->
+<div class="footer">
+  <p> Copyright &copy; Brian Folt, 2024--present. All rights reserved.</p>
+  </p>
+</div>
