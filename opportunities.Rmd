@@ -59,9 +59,9 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 We are recruiting a **post-doctoral researcher** to help study **ungulate migration** behavior and corridors in Nevada and co-produce decision-support science for the Nevada Department of Wildlife. A job advertisement is [here](files/jobad_ungulate_migration_postdoc.pdf). Please reach out if you are interested!
 
-### [**Post-doctoral Researcher**]{.ul}
+### [**Graduate Research Assistant (MS Student)**]{.ul}
 
-We are recruiting a **master's student** to study environmental effects on **elk survival** in northern Nevada in coproduction with the Nevada Department of Wildlife. A job advertisement is forthcoming. In the meantime, please reach out to us if you are interested!
+We are recruiting a **master's student** on a fully-funded project to study environmental effects on **elk survival** in northern Nevada in coproduction with the Nevada Department of Wildlife. A job advertisement is forthcoming, but if this sounds interested please reach out to us in the meantime!
 
 <br>
 

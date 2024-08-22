@@ -22,7 +22,9 @@ navbar:
         href: code_of_conduct.html
       - text: "Prospective Students"
         href: prospective_students.html
-  
+      - text: "Tools"
+        href: tools.html
+        
 output:
   html_document:
     theme: paper
