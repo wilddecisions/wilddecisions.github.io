@@ -64,7 +64,7 @@ Our overall goal is to provide **science** that helps understand how **landscape
 
 On this site, you can learn about [who we are](https://brianfolt.github.io/members.html), our [research interests](https://brianfolt.github.io/research.html), [publications ](https://brianfolt.github.io/publications.html) and tools from our work, our lab lead's philosophy toward [mentorship](https://brianfolt.github.io/philosophy.html), and expectations for [behavior in the lab](https://brianfolt.github.io/code_of_conduct.html). We will post advertisements for graduate student and scientist opportunities [here](https://brianfolt.github.io/opportunities.html) as well.
 
-Please reach out if you are interested in **joining our team** or **collaborating** with us.
+Please reach out if you are interested in **joining our team** or **collaborating** with us!
 
 <img src="images/logo.png" style="width:33%; border:0px solid; margin-right: 5px" align="right">
 
