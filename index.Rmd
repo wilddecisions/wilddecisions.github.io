@@ -85,16 +85,16 @@ Email: [bfolt@unr.edu](mailto:bfolt@unr.edu)<br>
 library(slickR)
 paths <- c(
   
-  "images/pocket-gopher.jpg",
+  "images/elk_fight_small.jpg",
   "images/cave.JPG",
-  "images/gopher_tortoise.jpg",
-  
+  "images/pocket-gopher.jpg",
+
   "images/bat.JPG",
   "images/grouse.jpg",
   "images/wild-horses-cropped.jpg",
   
   "images/la-sierra-class.jpg",
-  "images/dinner.JPG",
+  "images/gopher_tortoise.jpg",
   "images/prep-tray.jpg",
 
   "images/indigo.jpg",
@@ -102,7 +102,7 @@ paths <- c(
   "images/tigris_25mar18_1a.JPG",
 
   "images/glassfrog.jpg",
-  "images/lascruces_27sep17.jpeg",
+  "images/dinner.JPG",
   "images/toucan_27sep17_1a.jpeg",
     
   "images/indigo-release.jpg",
