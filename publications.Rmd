@@ -57,7 +57,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 Below are publications and PDF reprints from Brian Folt and the Wildlife Decision-Support Shop. Peer-reviewed publications are listed numerically and ordered by year. 
 
-### <u>In preparation (draft availailable upon request)</u>
+### <u>In preparation (draft available upon request)</u>
 
 [i] **B Folt**, M Crabb, KA Schoenecker. Factors influencing wild horse population growth rates across the western United States. In preparation.
 
@@ -73,7 +73,7 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 ### <u>2024</u>
 
-[28] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2024. Strengths and opportunities in gopher tortoise population modeling: Reply to Loope et al. *Global Ecology and Conservation*, e03093. [PDF](files/folt-et-al-2024-gopher-tortoises.pdf) [DOI](https://doi.org/10.1016/j.gecco.2024.e03093).
+[28] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2024. Strengths and opportunities in gopher tortoise population modeling: Reply to Loope et al. *Global Ecology and Conservation*, e03093. [PDF](files/folt-et-al-2024-gopher-tortoises.pdf) [DOI](https://doi.org/10.1016/j.gecco.2024.e03093)
 
 [27] C Guyer, JM Goessling, **B Folt**. Annual and lifetime home ranges reveal movement patterns within and among local populations of gopher tortoises. *Chelonian Conservation and Biology* 23(1):81--91. [PDF](files/guyer-et-al-2024-tortoises-CCB.pdf) [DOI](https://doi.org/10.2744/CCB-1603.1)
 
