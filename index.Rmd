@@ -90,7 +90,7 @@ paths <- c(
   "images/pocket-gopher.jpg",
 
   "images/bat.JPG",
-  "images/grouse.jpg",
+  "images/tortoise_trap.jpg",
   "images/wild-horses-cropped.jpg",
   
   "images/la-sierra-class.jpg",
@@ -109,13 +109,16 @@ paths <- c(
   "images/supraciliaris.JPG",
   "images/montanus.jpeg",
 
+  "images/grouse.jpg",
   "images/caracara_9oct17_1b.JPG",
   "images/shoal-lily.jpeg",
+
   "images/WL110573.jpeg",
-  
   "images/oophaga-pumilio.jpg",
+  "images/cyrtodactylus_19aug18_1a.jpeg",
+  
   "images/hawk.JPG",
-  "images/cyrtodactylus_19aug18_1a.jpeg"
+  "images/tort_blood.jpg"
 
   )
 
