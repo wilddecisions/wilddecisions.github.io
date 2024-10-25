@@ -62,11 +62,14 @@ Established in 2024, the **Wildlife Decision-Support Shop** is a new wildlife re
 
 Our overall goal is to provide **science** that helps understand how **landscapes** influence **wildlife populations and communities** and supports value-based **wildlife management decisions** in an inclusive and transparent framework. We have capacity in **quantitative ecology** and **population biology** that is not unusual among wildlife research laboratories -- but we hope our additional interests in **decision analysis** and **co-production** are core values that set us apart. To this end, we work closely with cooperating agencies to understand their decision problems and build them highly customized science products that support their real-world management decisions.
 
+Another core mission of the Shop is to **train** the next generation of **wildlife managers, decision makers, and scientists**. We employ and train graduate students (MS or PhD) and post-docs on **fully-funded projects** investigating important issues for wildlife biology and management in the Great Basin region. Students can participate in degree-granting programs through the [Natural Resource and Environmental Sciences (NRES) Program](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science) or the [Ecology, Evolution, and Conservation Biology Program](https://www.unr.edu/eecb) at UNR.
+
 On this site, you can learn about [who we are](https://brianfolt.github.io/members.html), our [research interests](https://brianfolt.github.io/research.html), [publications ](https://brianfolt.github.io/publications.html) and tools from our work, our lab lead's philosophy toward [mentorship](https://brianfolt.github.io/philosophy.html), and expectations for [behavior in the lab](https://brianfolt.github.io/code_of_conduct.html). We will post advertisements for graduate student and scientist opportunities [here](https://brianfolt.github.io/opportunities.html) as well.
 
 Please reach out if you are interested in **joining our team** or **collaborating** with us!
 
-<img src="images/logo.png" style="width:33%; border:0px solid; margin-right: 5px" align="right">
+<!-- <img src="images/logo.png" style="width:33%; border:0px solid; margin-right: 5px" align="right"> -->
+<img src="images/eecb-dei-logo.jpg" style="width:20%; border:0px solid; margin-right: 5px" align="right">
 
 <div class="single-spaced">
 **Contact information:**<br>
