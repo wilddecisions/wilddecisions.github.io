@@ -121,7 +121,8 @@ paths <- c(
   "images/cyrtodactylus_19aug18_1a.jpeg",
   
   "images/hawk.JPG",
-  "images/tort_blood.jpg"
+  "images/tort_blood.jpg",
+  "images/eecb-dei-logo.jpg"
 
   )
 
