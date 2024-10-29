@@ -64,7 +64,7 @@ Our overall goal is to provide **science** that helps understand how **landscape
 
 Another core mission of the Shop is to **train** the next generation of **wildlife managers, decision makers, and scientists**. We employ and train graduate students (MS or PhD) and post-docs on **fully-funded projects** investigating important issues for wildlife biology and management in the Great Basin region. Students can participate in degree-granting programs through the [Natural Resource and Environmental Sciences (NRES) Program](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science) or the [Ecology, Evolution, and Conservation Biology (EECB) Program](https://www.unr.edu/eecb) at UNR.
 
-On this site, you can learn about [who we are](members.html), our [research interests](https://brianfolt.github.io/research.html), [publications ](https://brianfolt.github.io/publications.html) and tools from our work, our lab lead's philosophy toward [mentorship](https://brianfolt.github.io/philosophy.html), and expectations for [behavior in the lab](https://brianfolt.github.io/code_of_conduct.html). We will post advertisements for graduate student and scientist opportunities [here](https://brianfolt.github.io/opportunities.html) as well.
+On this site, you can learn about [who we are](members.html), our [research interests](research.html), [publications ](publications.html) and tools from our work, our lab lead's philosophy toward [mentorship](philosophy.html), and expectations for [behavior in the lab](code_of_conduct.html). We will post advertisements for graduate student and scientist opportunities [here](opportunities.html) as well.
 
 <img src="images/eecb-dei-logo.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="right">
 
