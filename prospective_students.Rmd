@@ -55,6 +55,8 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 }
 }</style>
 
+<img src="images/eecb-dei-logo.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="right">
+
 ### [**Prospective Students**]{.ul}
 
 Thank you for your interest in the **Wildlife Decision-Support Shop** in the **Nevada Cooperative Fish and Wildlife Research Unit** at the **University of Nevada, Reno**!

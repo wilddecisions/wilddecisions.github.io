@@ -66,7 +66,8 @@ Another core mission of the Shop is to **train** the next generation of **wildli
 
 On this site, you can learn about [who we are](members.html), our [research interests](research.html), [publications ](publications.html) and tools from our work, our lab lead's philosophy toward [mentorship](philosophy.html), and expectations for [behavior in the lab](code_of_conduct.html). We will post advertisements for graduate student and scientist opportunities [here](opportunities.html) as well.
 
-<img src="images/eecb-dei-logo.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="right">
+<!-- <img src="images/eecb-dei-logo.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="right"> -->
+<img src="images/nvcfwru_logo.png" style="width:25%; border:0px solid; margin-right: 25px" align="right">
 
 Please reach out if you are interested in **joining our team** or **collaborating** with us!
 
@@ -110,7 +111,7 @@ paths <- c(
   "images/toucan_27sep17_1a.jpeg",
     
   "images/indigo-release.jpg",
-  "images/supraciliaris.JPG",
+  "images/deer.jpg",
   "images/montanus.jpeg",
 
   "images/grouse.jpg",
