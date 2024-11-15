@@ -90,12 +90,12 @@ Email: [bfolt@unr.edu](mailto:bfolt@unr.edu)<br>
 library(slickR)
 paths <- c(
   
-  "images/elk_fight_small.jpg",
+  "images/elk_fight.jpg",
   "images/cave.JPG",
   "images/pocket-gopher.jpg",
 
   "images/bat.JPG",
-  "images/tortoise_trap.jpg",
+  "images/tortoise_trap.jpeg",
   "images/wild-horses-cropped.jpg",
   
   "images/la-sierra-class.jpg",
