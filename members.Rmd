@@ -57,13 +57,19 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 <img src="images/brian-folt.jpg" style="width:21%; border:2px solid; margin-right: 20px" align="left">
 
-### [**Brian Folt, Ph.D. -- Principal Investigator**]{.ul}
+### [**Brian Folt, PhD -- Principal Investigator**]{.ul}
 
 Brian is a quantitative ecologist and population biologist who is interested in supporting good decisions in natural resource management. Brian's work combines field research, quantitative methods, and structured-decision making skills to help understand how landscapes influence wildlife populations and support value-based wildlife management decisions in an inclusive and transparent framework. Brian has a B.S. in Biological Sciences (2011), a Ph.D. in Ecology from Auburn University (2017), and post-doctoral experience from the Alabama and Florida Cooperative Fish and Wildlife Research Units. Brian previously worked for the U.S. Geological Survey at the Fort Collins Science Center and Conservation Science Partners. At USGS, a key product he developed was  [*PopEquus*](https://rconnect.usgs.gov/popequus/), a website application that can simulate wild horse populations and help understand trade-offs among management alternatives. Current research projects in the Nevada Unit involve applied management problems related to ungulates, Mojave desert tortoises, and wild horses in the Great Basin ecoregion.
 
-### [**Current Lab Members**]{.ul}
+<!-- <img src="images/brian-folt.jpg" style="width:21%; border:2px solid; margin-right: 20px" align="left"> -->
 
-We are just beginning to build out the lab and will be hiring graduate students and scientists to help with projects as they emerge. Check out funded student and post-doc opportunities are [here](https://brianfolt.github.io/opportunities.html)!
+#### [**Nathan Jackson, PhD -- Post-doctoral Researcher**]{.ul}
+
+Nathan is an ungulate ecologist who is joining the lab as a post-doc after he finishes his Ph.D. at University of Nevada, Reno. Nathan will be studying ungulate migrations in the Great Basin, and his work will be done in co-production with state (Nevada Department of Wildlife) and federal agencies (U.S. Geological Survey Corridor Mapping Team). Check back here later for more information about Nathan.
+
+### [**Other Lab Members**]{.ul}
+
+We are continuing to build out the lab and will be hiring graduate students to help with projects as they emerge. Check out funded student and post-doc opportunities are [here](https://brianfolt.github.io/opportunities.html)!
 
 <br>
 
