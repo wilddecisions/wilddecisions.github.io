@@ -94,7 +94,7 @@ paths <- c(
   "images/cave.JPG",
   "images/pocket-gopher.jpg",
 
-  "images/bat.JPG",
+  "images/eecb-dei-logo.jpg",
   "images/tortoise_trap.jpeg",
   "images/wild-horses-cropped.jpg",
   
@@ -124,7 +124,7 @@ paths <- c(
   
   "images/hawk.JPG",
   "images/tort_blood.jpg",
-  "images/eecb-dei-logo.jpg"
+  "images/bat.jpg"
 
   )
 
