@@ -111,9 +111,9 @@ Central to the challenge of horse population management is that horse population
 
 In response to needs from the **Nevada Department of Wildlife (NDOW)**, I have recently begun two research projects seeking to **manage** and **conserve** ungulates (hoofed mammals) that are important game species in Nevada. Elk usually have extremely high survival in the western US, but in northeastern Nevada some populations of elk have been experiencing **high springtime mortality** that may be contributing to **population declines**. I am hiring a Master's student to work closely with NDOW evaluate whether spring mortality is driven by **trace mineral deficiencies**, **novel diseases**, **space use**, and/or **landscape-scale factors**.
 
-<img src="images/elk_fight.JPG" style="width:35%; border:2px solid; margin-left: 15px" align="right">
+<!-- <img src="images/elk_fight.JPG" style="width:35%; border:2px solid; margin-left: 15px" align="right"> -->
 
-<!-- <img src="images/deer.jpg" style="width:30%; border:2px solid; margin-left: 15px" align="right"> -->
+<img src="images/deer.jpg" style="width:35%; border:2px solid; margin-left: 15px" align="right">
 
 Recent conservation efforts focused on understanding the importance of **migration corridors and seasonal ranges** to declines of large **ungulate populations** has prompted a large-scale research project designed to identify these important habitats for ungulate populations in the western United States. This work is being conducted under the authority of **DOI Secretarial Order 3362**, which called on the U.S. Geological Survey (USGS) to assist western states in **mapping ungulate migration corridors** and develop new mapping tools. We are working to **identify and prioritize migration corridors** for **mule deer, pronghorn, and elk** in Nevada. This information will address a critical data gap for the state and facilitate conservation and management of these populations. Dr. Nathan Jackson is spearheading this effort out of the Shop.
 
