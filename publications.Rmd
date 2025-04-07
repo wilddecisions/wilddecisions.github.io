@@ -65,13 +65,13 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 [ii] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, E Hunter, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. **Under review**.
 
-[iii] **B Folt**, M Crabb, P Griffin, KA Schoenecker. Management and population density influence wild horse population growth in the western United States. In preparation.
+[iii] DC Stoner, **B Folt**, KA Schoenecker. Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? **Under review**.
 
-[iv] DC Stoner, **B Folt**, KA Schoenecker. Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? In preparation.
+[iv] **B Folt**, M Crabb, P Griffin, KA Schoenecker. Management and population density influence wild horse population growth in the western United States. In preparation.
 
 ### <u>2025</u>
 
-[29] A Robillard, M Standen, N Giebink, M Spangler, AC Collins, **B Folt**, A Maguire, B Dickson. **In press.** Application of computer vision for off-highway vehicle route detection in threatened Mojave desert tortoise habitat. *Remote Sensing in Ecology and Conservation*.
+[29] A Robillard, M Standen, N Giebink, M Spangler, AC Collins, **B Folt**, A Maguire, B Dickson. 2025. Application of computer vision for off-highway vehicle route detection: A case study in Mojave desert tortoise habitat. *Remote Sensing in Ecology and Conservation*: 1-14. [PDF](files/robillard_etal_2025_ohv.pdf) [DOI](https://doi.org/10.1002/rse2.70004)
 
 <img src="images/tort_genetics.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
