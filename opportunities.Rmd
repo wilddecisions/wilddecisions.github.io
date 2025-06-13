@@ -55,9 +55,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 }
 }</style>
 
-<img src="images/elk_fight.jpg" style="width:35%; border:2px solid; margin-left: 15px" align="right">
-
-**2025 Spring**: We are recruiting a **master's student** on a fully-funded project to study environmental effects on **elk survival** in northern Nevada and working in coproduction with the **Nevada Department of Wildlife**. The student will analyze seven years of GPS collar data from elk and seek to understand how space use, landscape, and individual-level covariates (trace mineral elements) may be driving puzzling mortality in areas of Nevada. The project may also include a field component. Read more [here](files/jobad_elk_survival_ms.pdf)!
+There are no vacant opportunities available at this moment. Please reach out to me if you are interested in working with us, though!
 
 Click on the **bold header** below to review 'old opportunities' in the **Shop**.
 
@@ -69,6 +67,10 @@ Click on the **bold header** below to review 'old opportunities' in the **Shop**
 </div>
 
 <div class="collapse" id="old_opps">
+
+<img src="images/elk_fight.jpg" style="width:26%; border:2px solid; margin-left: 15px" align="right">
+
+**2025 Spring**: We are recruiting a **master's student** on a fully-funded project to study environmental effects on **elk survival** in northern Nevada and working in coproduction with the **Nevada Department of Wildlife**. The student will analyze seven years of GPS collar data from elk and seek to understand how space use, landscape, and individual-level covariates (trace mineral elements) may be driving puzzling mortality in areas of Nevada. The project may also include a field component. Read more [here](files/jobad_elk_survival_ms.pdf)!
 
 <img src="images/deer.jpg" style="width:35%; border:2px solid; margin-left: 15px" align="right">
 

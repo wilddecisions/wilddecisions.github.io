@@ -83,6 +83,7 @@ University of Nevada, Reno<br>
 Office: 100A Knudtsen Resource Center, 1000 Valley Road, Reno, NV 89512<br>
 Mail: 1664 N. Virginia Street, Mail Stop 405, Reno, NV 89557<br>
 Email: [bfolt@unr.edu](mailto:bfolt@unr.edu)<br>
+Phone: 775.682.5957 (office)
 </div>
 
 <br>
@@ -104,8 +105,8 @@ paths <- c(
   "images/prep-tray.jpg",
 
   "images/indigo.jpg",
+  "images/brooke_nathan.jpg",
   "images/gator-snapper.jpg",
-  "images/tigris_25mar18_1a.JPG",
 
   "images/glassfrog.jpg",
   "images/dinner.JPG",
@@ -125,7 +126,9 @@ paths <- c(
   
   "images/hawk.JPG",
   "images/tort_blood.jpg",
-  "images/bat.jpg"
+  "images/bat.jpg",
+  
+  "images/tigris_25mar18_1a.JPG"
 
   )
 
