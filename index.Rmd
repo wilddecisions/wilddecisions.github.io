@@ -106,7 +106,7 @@ paths <- c(
 
   "images/indigo.jpg",
   "images/brooke_nathan.jpg",
-  "images/gator-snapper.jpg",
+  "images/tigris_25mar18_1a.JPG",
 
   "images/glassfrog.jpg",
   "images/dinner.JPG",
@@ -128,8 +128,8 @@ paths <- c(
   "images/tort_blood.jpg",
   "images/bat.jpg",
   
-  "images/tigris_25mar18_1a.JPG"
-
+  "images/leopard_lizard.jpg"
+  
   )
 
 slickR(obj=paths, height=175) + 
