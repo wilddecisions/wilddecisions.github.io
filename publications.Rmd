@@ -71,6 +71,8 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 ### <u>2025</u>
 
+<img src="images/tort_stressors.png" style="width:25%; border:1px solid; margin-left: 15px" align="right">
+
 [30] K Grimm, **B Folt**, A Collins, M Standen, M Spangler, B Dickson. Applying knowledge co-production to identify Mojave desert tortoise stressors across time, space, and agency missions. *Conservation Science and Practice* 7:e70073. [PDF](files/grimm_etal_2025_coproduction.pdf) [DOI](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/csp2.70073)
 
 [29] A Robillard, M Standen, N Giebink, M Spangler, AC Collins, **B Folt**, A Maguire, EM Olimpi, BG Dickson. 2025. Application of computer vision for off-highway vehicle route detection: A case study in Mojave desert tortoise habitat. *Remote Sensing in Ecology and Conservation*: 1-14. [PDF](files/robillard_etal_2025_ohv.pdf) [DOI](https://doi.org/10.1002/rse2.70004)

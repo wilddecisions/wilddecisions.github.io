@@ -61,9 +61,11 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 }
 }</style>
 
-<img src="images/me_amphiuma_2012.jpg" style="width:30%; border:2px solid; margin-left: 15px" align="right">
+<img src="images/brooke_nathan.jpg" style="width:30%; border:2px solid; margin-left: 15px" align="right">
 
 We study how **landscapes** influence **wild animal populations** from fundamental and applied perspectives. We conduct fundamental research that tests **hypotheses** about how habitat influences the dynamics of animal populations, and then we work to understand how populations, habitats, and landscapes can be **managed** in ways that **maximize** important societal **values**, such as **recovering populations of imperiled species**, **maximizing ecosystem health**, **maximizing recreational value (e.g., hunting opportunity)**, and **minimizing fiscal spending**. These science products provide information to **support decisions** made by natural resource management agencies.
+
+<img src="images/me_amphiuma_2012.jpg" style="width:25%; border:2px solid; margin-left: 15px" align="right">
 
 For this reason, we work closely with cooperators and decision makers to help them navigate the **complex decisions** they face. To do this, we use decision analysis tools (e.g., **structured decision making**) to improve shared understanding of problems, objectives, alternatives, and important trade-offs in the decision. This work often takes a **co-production** approach, where we work together as a group to understand the problem, build science products, and improve decision-support products in an iterative fashion. End products include **reports**, **science articles**, and dynamic **computer applications** that, for example, use predictive models to estimate the usefulness of alternatives might achieve different objectives during decisions.
 
