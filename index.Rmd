@@ -102,7 +102,7 @@ paths <- c(
   
   "images/la-sierra-class.jpg",
   "images/gopher_tortoise.jpg",
-  "images/prep-tray.jpg",
+  "images/elk_SEMS.jpg",
 
   "images/indigo.jpg",
   "images/brooke_nathan.jpg",
@@ -117,7 +117,7 @@ paths <- c(
   "images/montanus.jpeg",
 
   "images/grouse.jpg",
-  "images/caracara_9oct17_1b.JPG",
+  "images/prep-tray.jpg",
   "images/shoal-lily.jpeg",
 
   "images/WL110573.jpeg",
@@ -126,10 +126,10 @@ paths <- c(
   
   "images/hawk.JPG",
   "images/tort_blood.jpg",
-  "images/bat.jpg",
+  "images/caracara_9oct17_1b.JPG",
   
-  "images/leopard_lizard.jpg"
-  
+  "images/leopard_lizard.jpg",
+  "images/bat.jpg"
   )
 
 slickR(obj=paths, height=175) + 
