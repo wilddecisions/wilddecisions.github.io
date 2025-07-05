@@ -96,10 +96,10 @@ paths <- c(
   "images/cave.JPG",
   "images/pocket-gopher.jpg",
 
-  "images/eecb-dei-logo.jpg",
-  "images/tortoise_trap.jpeg",
   "images/wild-horses-cropped.jpg",
-  
+  "images/tortoise_trap.jpeg",
+  "images/eecb-dei-logo.jpg",
+
   "images/la-sierra-class.jpg",
   "images/gopher_tortoise.jpg",
   "images/elk_SEMS.jpg",
@@ -126,9 +126,9 @@ paths <- c(
   
   "images/hawk.JPG",
   "images/tort_blood.jpg",
-  "images/caracara_9oct17_1b.JPG",
-  
   "images/leopard_lizard.jpg",
+  
+  "images/caracara_9oct17_1b.JPG",
   "images/bat.jpg"
   )
 
