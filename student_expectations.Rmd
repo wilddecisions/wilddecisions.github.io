@@ -60,7 +60,7 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 This page describes my practical philosophy and expectations for students considering graduate studies in our research group. I adapted this content largely from a documented produced by my colleague, Dr. Jeff Falke, but customized it for my needs more specifically. A PDF of this document is [here](student_expectations.pdf).
 
-Date: `r format(Sys.Date(), "%e %B %Y")`
+Last updated: `r format(Sys.Date(), "%e %B %Y")`
 
 ### [**What is graduate school?**]{.ul}
 
@@ -90,7 +90,7 @@ The UNR library offers excellent resources, including support from subject-speci
 
 ### [**Academic Requirements**]{.ul}
 
-There are at least two degree-granting programs that you could pursue as a graduate student in our group, including the **Natural Resources and Environmental Sciences (NRES)** Program and the **Ecology, Evolution, and Conservation Biology (EECB)** Program. Both programs offer MS or PhD degrees, and academic requirements vary by program and degree. The choice of which of these programs to enroll in might depend on a choosing between trade-offs related to resources provided and the ultimate name of degree on your diploma. More information for each program can be found here: [EECB](https://www.unr.edu/eecb/current-students/handbook), [NRES MS](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science/nres-masters-program/master-of-science-handbook), or [NRES PhD](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science/nres-phd-program/doctor-of-philosophy-handbook).
+There are at least two degree-granting programs that you could pursue as a graduate student in our group, including the **Natural Resources and Environmental Sciences (NRES)** Program and the **Ecology, Evolution, and Conservation Biology (EECB)** Program. Both programs offer MS or PhD degrees, and academic requirements vary by program and degree. The choice of which of these programs to enroll in might depend on a choosing between trade-offs related to required coursework, resources provided, academic communities, and the ultimate name of degree on your diploma. More information for each program can be found here: [EECB](https://www.unr.edu/eecb/current-students/handbook), [NRES MS](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science/nres-masters-program/master-of-science-handbook), or [NRES PhD](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science/nres-phd-program/doctor-of-philosophy-handbook).
 
 Read the above manuals to get a sense of academic requirements for relevant programs. For example, these programs may have expectations about when a proposal needs to be completed by and/or minimum GPA requirements during the program. In my opinion, your grades in grad school are less important than the quality of your research, as long as you always get at least a "B". However, some scholarships or grants may be merit-based, and grades may count ranking criteria. 
 
