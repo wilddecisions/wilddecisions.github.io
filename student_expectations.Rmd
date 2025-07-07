@@ -148,7 +148,7 @@ While the publication process can be lengthy and challenging, I expect students 
 
 ### [**Working in the Coop Unit**]{.ul}
 
-As a member of my lab, you are automatically part of the [Nevada Cooperative Fish and Wildlife Research Unit (NVCFWRU)](https://www.unr.edu/nvcfwru). The Cooperative Research Unit (CRU) program is a nationwide initiative administered by the USGS, dedicated to supporting graduate student training that advances science-based management of fish, wildlife, and their habitats.
+As a member of my lab, you are automatically part of the [Nevada Cooperative Fish and Wildlife Research Unit (NVCFWRU)](https://www.unr.edu/nvcfwru). The Cooperative Research Unit (CRU) program is a nationwide initiative administered by the USGS, dedicated to supporting graduate student training that advances science-based management of fish, wildlife, and their habitats. 
 
 The primary partners of the NVCFWRU include the USGS, Nevada Department of Wildlife, U.S. Fish and Wildlife Service, Wildlife Management Institute, and the University of Nevada, Reno. These organizations provide significant support and funding for the operation of the Unit.
 
@@ -156,7 +156,7 @@ Many student projects in my lab receive funding from these agencies, and we main
 
 To facilitate this, we plan to present research findings annually through posters or oral presentations at relevant state and regional meetings, such as the Nevada Chapter of The Wildlife Society, Western Section of TWS Meeting, Desert Tortoise Council, etc.
 
-For more information about the Cooperative Research Unit program, please visit the NVCFWRU and CRU websites.
+As a student in a Coop Unit, you will be expected to adhere to various safety, data, and publication procedures that are required of USGS scientists. Please review this [document](https://wilddecisions.github.io/files/cru_student_manual_2025.pdf), which summarizes expectations for Coop Unit students. For more information about the Cooperative Research Unit program, please visit the [NVCFWRU]() and USGS CRU websites (this one is under construction - July 2025).
 
 ### [**Wildlife Decision-Support Shop**]{.ul}
 
