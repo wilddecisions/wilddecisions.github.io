@@ -1,0 +1,209 @@
+---
+output:
+  html_document:
+    theme: yeti
+---
+
+<style type="text/css">
+body{ /* Normal  */ font-size: 16px; font-family: Arial; color:black;  line-height: 1.8;}
+td {  /* Table  */ font-size: 8px;}
+h1.title {font-size: 38px; color: DarkRed;}
+h1 { /* Header 1 */ font-size: 28px; color: Black;}
+h2 { /* Header 2 */ font-size: 22px; color: Black;}
+h3 { /* Header 3 */ font-size: 18px; color: Black; font-weight: bold;}
+code.r{ /* Code block */ font-size: 12px;}
+pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
+.navbar {
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space out items */
+  align-items: start; /* Top vertical end */
+  #align-items: center; /* Center items vertically */
+  #align-items: flex-end; /* Lower vertical end */
+  height: 175px; /* Set specific height for navbar, adjust as needed */
+  background-color: #000033; /* Dark blue color */
+}
+.navbar-nav a {
+  text-decoration: none; /* Optional: remove underline from links */
+  color: black; /* Optional: set link color */
+}
+.navbar-nav li {
+  padding: 10px 0 0 0; /* Add padding to top of menu items */
+  padding: 0 10px; /* Optional: add padding to menu items */
+}
+/* Ensure the parent container is relatively positioned */
+.parent-container {
+  position: relative;
+}
+.footer {
+  background-color: #000033; /* Dark blue color */
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensure the footer spans the full width */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Align the footer to the left edge */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+.footer a {
+  color: white; /* Footer links color */
+  text-decoration: none; /* Remove underline from links */
+}
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+}</style>
+
+## [**Graduate Student Expectations**]{.ul}
+
+
+This page describes my practical philosophy and expectations for students considering graduate studies in our research group. I adapted this content largely from a documented produced by my colleague, Dr. Jeff Falke, but customized it for my needs more specifically. A PDF of this document is [here](student_expectations.pdf).
+
+Date: `r format(Sys.Date(), "%e %B %Y")`
+
+### [**What is graduate school?**]{.ul}
+
+As an undergraduate, you likely became skilled at juggling 4–5 classes per semester, writing papers, and studying for exams. Graduate school is a different experience. Rather, graduate school is about inquisitiveness, focus, and developing expertise through mentored research, perhaps while taking minimum load of courses. In some semesters, you may not take any courses at all. The emphasis shifts to focus more conducting independent research and growing professionally as a scientist, rather than coursework and memorization.
+
+### [**Graduate student characteristics I look for**]{.ul}
+
+I look for graduate students that are mature, creative, thoughtful; who work hard and, at times, independently; who have field or lab research experience; and who writes well. And perhaps most importantly, I look for folks who will 'fit in' to a positive, diverse, and fun culture and community in the lab, Unit, and UNR.
+
+### [**What it takes to be successful in graduate school**]{.ul}
+
+Graduate school requires more self-motivation and initiative than being an undergraduate student. You will have greater control over your education and what you gain from it. I found grad school to be challenging, but much more interesting and enjoyable than my undergraduate experience. You will need to learn how to think ahead, multi-task, communicate with staff and colleagues, and plan and coordinate complex work and problems. You'll be pretty busy and will have to be good at managing your time. You'll need to absorb lots of information, analyze data, and interpret and synthesize findings to provide new and useful knowledge. Then you will learn how to communicate that knowledge to others in written and oral formats. Throughout all of this, 'people skills' and networking will be required. A host of folks can help you be successful, including undergrads, fellow graduate students, professors, post-docs, lab managers, agency biologists, and other experts in the field - but only if you let them.
+
+### [**Financial Support**]{.ul}
+
+All of my graduate students are supported through research assistantships. These positions come with competitive stipends that are on-par with those offered by comparable programs at other universities nationwide. In order to maintain focus and make steady progress toward your degree, outside employment is not permitted -- I believe graduate school requires your full attention and commitment.
+
+Tuition is covered as part of your assistantship, and all graduate students at the University of Nevada, Reno are charged in-state (resident) tuition rates. You are encouraged to register for the minimum number of credits required for graduation. This helps reduce tuition costs and allows us to allocate more grant funds toward essential research expenses, such as travel to scientific meetings and conferences.
+
+### [**Reading**]{.ul}
+
+Becoming familiar with the scientific literature related to your research can feel overwhelming at first -- but it’s a critical part of graduate training. You will need to quickly develop skills in literature searching and critical reading of scientific papers. Beyond staying current in your specific research area, I expect you to stay informed about broader issues in applied ecology.
+
+Make it a habit to regularly scan the tables of contents of major journals such as *Science*, *Nature*, *Proceedings of the National Academy of Sciences (PNAS)*, *Conservation Biology*, as well as key review journals (e.g., *Trends in Ecology & Evolution*), and discipline-specific journals (e.g., *Ecological Applications*, *Journal of Wildlife Management*, etc.). This will help you identify important developments and foundational papers in your field.
+
+The UNR library offers excellent resources, including support from subject-specific Science Librarians. I encourage you to contact [Dr. Amy Shannon](ashannon@unr.edu) to learn how to make the most of these services. You can also visit the library website to set up alerts through Web of Science or Google Scholar that notify you automatically when new papers are published on topics relevant to your research.
+
+### [**Academic Requirements**]{.ul}
+
+There are at least two degree-granting programs that you could pursue as a graduate student in our group, including the **Natural Resources and Environmental Sciences (NRES)** Program and the **Ecology, Evolution, and Conservation Biology (EECB)** Program. Both programs offer MS or PhD degrees, and academic requirements vary by program and degree. The choice of which of these programs to enroll in might depend on a choosing between trade-offs related to resources provided and the ultimate name of degree on your diploma. More information for each program can be found here: [EECB](https://www.unr.edu/eecb/current-students/handbook), [NRES MS](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science/nres-masters-program/master-of-science-handbook), or [NRES PhD](https://www.unr.edu/nres/graduate-programs/natural-resources-environmental-science/nres-phd-program/doctor-of-philosophy-handbook).
+
+Read the above manuals to get a sense of academic requirements for relevant programs. For example, these programs may have expectations about when a proposal needs to be completed by and/or minimum GPA requirements during the program. In my opinion, your grades in grad school are less important than the quality of your research, as long as you always get at least a "B". However, some scholarships or grants may be merit-based, and grades may count ranking criteria. 
+
+### [**Teaching**]{.ul}
+
+If you’re considering a future career in academia, there are many opportunities to gain teaching experience during your time in the lab. These include serving as a teaching assistant (TA), acting as a primary course instructor, giving guest lectures, and mentoring undergraduate students. We can discuss your interests and available opportunities when you arrive.
+
+Ph.D. students in the EECB (see Academic Requirements above) are required to serve as a TA for at least one semester. This may apply to NRES as well. This teaching requirement is typically supported by funding from UNR and the relevant academic department.
+
+### [**Work schedule and vacations**]{.ul}
+
+Research and graduate school are academic pursuits -- not typical 9-to-5 jobs -- and very few students succeed by working only a standard 40-hour week. My philosophy is simple: do whatever it takes to get the job done. If you find yourself frequently worried about how many hours you’re putting in, graduate school might not be the right fit for you.
+
+That said, I also prioritize your physical and mental well-being, as staying healthy is essential to sustained productivity, success, and happiness. If you feel that additional support or resources would help you make progress, please let me know -- I am committed to helping you succeed.
+
+I do not monitor my students’ work hours closely; instead, I trust you to manage your time responsibly. As long as you are making steady progress toward your project goals, you may choose your own schedule. However, I generally expect you to be available on campus during normal weekday working hours, unless we agree otherwise.
+
+Graduate students do not accrue vacation time formally, but my policy provides 22 weekdays off per year, including holidays that fall on weekdays -- roughly one month of time off annually. I expect students to schedule vacations and days off thoughtfully, avoiding critical work periods whenever possible. Please inform me in advance about your planned time off, and let’s both keep track of your vacation days.
+
+When you are sick, please take the necessary time to recover -- this is not counted as vacation time.
+
+### [**Professional Organizations**]{.ul}
+
+For many students, graduate school is the first step toward building a professional career. As an emerging professional, I expect you to become actively involved in relevant professional organizations. For many in the lab, this will include societies such as The Wildlife Society -- including national, regional, or state chapters -- or another taxon-specific society (e.g., American Society of Mammalogists, Society for the Study of Amphibians and Reptiles, etc.). I strongly encourage you to join both the parent societies and local chapters relevant to your discipline.
+
+Student membership fees are generally modest, and the benefits are substantial: access to extensive professional networks, educational and career development opportunities, and the demonstration of your commitment to your field. Beyond joining, I expect you to participate actively by attending meetings and contributing your time and energy to society activities.
+
+### [**Presentations**]{.ul}
+
+Oral presentation skills are essential for any career in our field, and the more practice you get during graduate school, the stronger these skills will become. As an early-career scientist, your professional reputation will often be shaped first by your presentations at conferences. While publications tend to be fewer and come later, presentations are opportunities you can seize frequently and early.
+
+I teach my students how to give great talks. I encourage you to present your work multiple times throughout your graduate career. To support this, I allocate funding to ensure that each student can present at least once at a national or major regional conference before graduation. Delivering effective and interesting talks will positively impact your career.
+
+### [**Data Management**]{.ul}
+
+Reproducible research is a cornerstone of good science and a major focus in our field today. Recent USGS policies require data management plans before starting projects, as well as online data publication after project completion. I expect all students and staff to maintain thorough, organized records and to follow best practices for reproducible research -- including clear data organization and version control of code.
+
+I expect all students and staff in the lab group to (i) store all of their data on the university server, (ii) maintain organized analysis workflows (and potentially data) in the laboratory GitHub repository, and (iii) to be organized and well documented about data storage and analysis version control throughout their program. At the end of your time in the lab, you will be required to provide me with clean, well-documented copies of your thesis or dissertation data and analysis scripts -- so I expect you to stay on top of this throughout the program.
+
+Additionally, all project data must be backed up both physically (e.g., external hard drives) and in the cloud. I will cover any costs and provide access to cloud storage solutions (e.g., university server, Box, etc.), to ensure your work is securely preserved.
+
+### [**Publications**]{.ul}
+
+Our research goal is straightforward: to conduct the highest-quality studies in the field -- focused on applications for local and regional agencies managing wildlife and habitats -- and to publish these findings in leading journals, such as *Ecological Applications*, *Journal of Applied Ecology*, *Journal of Wildlife Management*, or other taxon-specific journals of similar caliber.
+
+I expect all graduate students to publish their thesis research in peer-reviewed journals. Conducting research without publishing it diminishes its impact and value. Publishing your thesis chapters serves several key purposes:
+
+1. It provides a valuable learning experience, guided by an experienced coauthor (me).
+2. It offers an objective, third-party validation of your work’s quality and credibility.
+3. It disseminates your research findings to a global scientific audience.
+
+Peer-reviewed publications are also critical indicators of your scientific skills and professionalism to prospective employers.
+
+While the publication process can be lengthy and challenging, I expect students to actively manage and prioritize publishing their work -- even after graduation. If substantial progress on publishing thesis or dissertation chapters is not made within one year of graduation, I reserve the right to take over the publication process as the corresponding or lead author.
+
+### [**Working in the Coop Unit**]{.ul}
+
+As a member of my lab, you are automatically part of the [Nevada Cooperative Fish and Wildlife Research Unit (NVCFWRU)](https://www.unr.edu/nvcfwru). The Cooperative Research Unit (CRU) program is a nationwide initiative administered by the USGS, dedicated to supporting graduate student training that advances science-based management of fish, wildlife, and their habitats.
+
+The primary partners of the NVCFWRU include the USGS, Nevada Department of Wildlife, U.S. Fish and Wildlife Service, Wildlife Management Institute, and the University of Nevada, Reno. These organizations provide significant support and funding for the operation of the Unit.
+
+Many student projects in my lab receive funding from these agencies, and we maintain close collaboration with their scientists and managers. Building strong professional relationships with biologists and administrators from our partner agencies is critical for the success of current and future projects. Accordingly, we prioritize effective communication of research results and remain mindful of the agencies’ goals and constraints.
+
+To facilitate this, we plan to present research findings annually through posters or oral presentations at relevant state and regional meetings, such as the Nevada Chapter of The Wildlife Society, Western Section of TWS Meeting, Desert Tortoise Council, etc.
+
+For more information about the Cooperative Research Unit program, please visit the NVCFWRU and CRU websites.
+
+### [**Wildlife Decision-Support Shop**]{.ul}
+
+Our lab group is the [Wildlife Decision-Support Shop](https://wilddecisions.github.io/). The Shop is organized within the Nevada Cooperative Fish and Wildlife Research Unit and benefits from having the support of the [Unit Leader](https://www.unr.edu/nvcfwru/contact-us/falke-jeff), Unit [administrative assistant](https://www.unr.edu/nvcfwru/contact-us/grove-jennifer), among other staff. These folks can offer useful assistance with your research and academic pursuits at UNR. That said, if one of these folks or another collaborator asks you to do something related to your project or our shared work, treat the request as if it came directly from me -- with the same level of professionalism and priority.
+
+The Shop will be dynamic, with students, postdocs, and staff at different stages of experience rotating through over time. One of the greatest advantages of graduate school is the opportunity to learn from and collaborate with your peers, postdoctoral researchers, and faculty members. I expect you to make the most of this collaborative environment -- but never take advantage of it.
+
+And finally, it should go without saying: treat everyone with respect, especially our support staff, technicians, and fellow students. A healthy and respectful lab culture is essential to our collective success.
+
+### [**Seminars**]{.ul}
+
+Graduate school is a time to immerse yourself in science and build a broad understanding of the natural world. One of the great benefits of this experience is the opportunity to learn about topics beyond your specific research focus -- and to observe, on a weekly basis, how effective (and ineffective) presentations are delivered.
+
+Unless you are in the field or in class, I expect my students to attend weekly seminars hosted by the Ecology, Evolution, and Conservation Biology (EECB) Graduate Program Colloquium, the NRES Seminar Series, and MS/PhD defenses within our department. These seminars will not only expose you to new ideas, but they often spark unexpected insights relevant to your own work. I can’t count how many times a seemingly unrelated talk has inspired a new angle on a project.
+
+Your presence also supports your fellow students and colleagues. There are few things more disheartening than preparing and delivering a seminar to an empty room. Poor attendance reflects badly on our academic department and our lab as a whole.
+
+Though not required, I strongly encourage you to also attend topical or interdisciplinary seminars (e.g., climate change series) whenever they are even remotely related to your interests. You never know what you might learn or who you might meet.
+
+### [**Safety**]{.ul}
+
+As a student in the Nevada Cooperative Fish and Wildlife Research Unit (NVCFWRU) and an employee under my supervision, you -- and any technicians working under you -- are required to complete safety training provided by UNR and USGS. Depending on your specific project, required trainings may include defensive driving, laboratory safety, motorboat operation, wildlife handling techniques, and others.
+
+When you arrive, we will complete a Personal Hazard Analysis (PHA) to determine which trainings are necessary for your role. It’s best to complete these requirements early, as some of the modules can take significant time.
+
+When conducting fieldwork, you are responsible for the safety of yourself and your team. This includes making judgment calls in the field about whether conditions are safe for sampling. The USGS maintains a strong culture of safety, and the guiding principle is clear: human safety always takes precedence over data collection.
+
+### [**Other Expectations**]{.ul}
+
+An important part of your graduate training -- and your commitment to this lab -- is to participate fully as a member of both the Wildlife Decision-Support Shop and the broader community of biologists and ecologists in NRES, EECB, and the College of Agriculture, Biotechnology, and Natural Resources (CABNR). UNR offers many opportunities for intellectual growth, networking, and contribution. I expect students to genuinely invest in the program by taking part in seminars, social events, lab discussions, and presentation practice sessions.
+
+I also encourage you to consider mentoring undergraduate students as part of your research. Mentorship is a valuable professional development opportunity for you, and it provides undergraduates with meaningful exposure to the scientific process. UNR offers several programs to facilitate undergraduate research involvement (e.g., the Undergraduate Research Opportunity Program [UROP], Honors Program projects, or department-sponsored initiatives).
+
+Being actively engaged in our academic community enhances your own personal and intellectual growth, while also helping to foster a collaborative and supportive environment for everyone involved.
+
+I hope none of the expectations outlined in this document seem daunting -- they are not meant to be! Graduate school should be one of the most fulfilling and rewarding experiences of your life. If you approach it with a clear understanding of what’s expected, an openness to growth, and a commitment to hard work, I’m confident you will thrive here and well beyond.
+
+I have read and understand these expectations.
+
+<br>
+
+**Name:**
+
+<br>
+
+**Signed:**
+
+<br>
+
+**Date:**

@@ -88,6 +88,11 @@ Phone: 775.682.5957 (office)
 
 <br>
 
+```{r echo=FALSE, eval=FALSE}
+## Manually run these lines through console to turn the RMD into DOCX or PDF
+rmarkdown::render('student_expectations.Rmd', output_file = 'student_expectations.pdf', rmarkdown::pdf_document())
+```
+
 ```{r pictures, echo=FALSE}
 library(slickR)
 paths <- c(
