@@ -99,7 +99,6 @@ paths <- c(
   
   "images/elk_fight.jpg",
   "images/cave.JPG",
-  "images/pocket-gopher.jpg",
 
   "images/wild-horses-cropped.jpg",
   "images/tortoise_trap.jpeg",

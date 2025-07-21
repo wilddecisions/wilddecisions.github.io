@@ -67,6 +67,10 @@ Brian is a quantitative ecologist and population biologist who is interested in 
 
 Nathan is a large mammal ecologist interested in population ecology and the effects of density dependence on movement, demography, population dynamics, and competition (intra- and interspecific). Nathan’s research leverages movement and demographic datasets to inform conservation and management decisions for large, herbivorous mammals. Nathan holds a B.S. in Natural Resources-Wildlife Conservation and Management from the University of Arizona (2013), and an M.S. (2019) and Ph.D. (2024) in Natural Resources and Environmental Science from the University of Nevada, Reno. Nathan’s current research is focused on migratory behavior of ungulates in the Great Basin. His current work is done in co-production with state (Nevada Department of Wildlife) and federal agencies (U.S. Geological Survey Corridor Mapping Team).
 
+#### [**Ava Window -- MS Student**]{.ul}
+
+Ava is an ungulate ecologist interested in the ecology of elk. She will be studying puzzling spring-time mortality of elk in northern Nevada to help the state better understand why elk are mysteriously dying during a time of the year when common knowledge suggests they shouldn't be. Ava will update this page with her info when she starts school in the fall of 2025.
+
 ### [**Other Lab Members**]{.ul}
 
 We are continuing to build out the lab and will be hiring graduate students to help with projects as they emerge. Check out funded student and post-doc opportunities [here](https://wilddecisions.github.io/opportunities.html)!
