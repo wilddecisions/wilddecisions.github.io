@@ -63,35 +63,33 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 [i] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, E Hunter, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. **In revision**.
 
+[ii] **B Folt**, M Crabb, P Griffin, KA Schoenecker. Management and population density influence wild horse population growth in the western United States. **In prep**.
+
+[iii] T Shane, PJ Williams, **B Folt**, RA Washington-Allen, BL Perryman. Application of a hierarchical zero-inflated beta model to evaluate early stages of targeted grazing treatment application on an invasive annual grass. **In prep**.
+
 <img src="images/lion_horse.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
-
-[ii] DC Stoner, **B Folt**, KA Schoenecker. Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? **In revision**.
-
-[iii] **B Folt**, M Crabb, P Griffin, KA Schoenecker. Management and population density influence wild horse population growth in the western United States. **In prep**.
-
-[iv] T Shane, PJ Williams, **B Folt**, RA Washington-Allen, BL Perryman. Application of a hierarchical zero-inflated beta model to evaluate early stages of targeted grazing treatment application on an invasive annual grass. **In prep**.
 
 ### <u>2025</u>
 
-<img src="images/tort_stressors.png" style="width:25%; border:1px solid; margin-left: 15px" align="right">
+[31] DC Stoner, **B Folt**, KA Schoenecker. **Accepted.** Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? *Frontiers in Conservation Science*.
 
 [30] K Grimm, **B Folt**, A Collins, M Standen, M Spangler, B Dickson. Applying knowledge co-production to identify Mojave desert tortoise stressors across time, space, and agency missions. *Conservation Science and Practice* 7:e70073. [PDF](files/grimm_etal_2025_coproduction.pdf) [DOI](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/csp2.70073)
 
-[29] A Robillard, M Standen, N Giebink, M Spangler, AC Collins, **B Folt**, A Maguire, EM Olimpi, BG Dickson. 2025. Application of computer vision for off-highway vehicle route detection: A case study in Mojave desert tortoise habitat. *Remote Sensing in Ecology and Conservation*: 1-14. [PDF](files/robillard_etal_2025_ohv.pdf) [DOI](https://doi.org/10.1002/rse2.70004)
+<img src="images/tort_stressors.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
-<img src="images/tort_genetics.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+[29] A Robillard, M Standen, N Giebink, M Spangler, AC Collins, **B Folt**, A Maguire, EM Olimpi, BG Dickson. 2025. Application of computer vision for off-highway vehicle route detection: A case study in Mojave desert tortoise habitat. *Remote Sensing in Ecology and Conservation*: 1-14. [PDF](files/robillard_etal_2025_ohv.pdf) [DOI](https://doi.org/10.1002/rse2.70004)
 
 ### <u>2024</u>
 
 [28] **B Folt**, M Marshall, JA Emmanuel, M Dziadzio, J Cooke, L Mena, M Hinderlichter, S Hoffman, N Rankin, J Tupy, CP McGowan. 2024. Strengths and opportunities in gopher tortoise population modeling: Reply to Loope et al. *Global Ecology and Conservation*, e03093. [PDF](files/folt-et-al-2024-gopher-tortoises.pdf) [DOI](https://doi.org/10.1016/j.gecco.2024.e03093)
+
+<img src="images/tort_genetics.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 [27] C Guyer, JM Goessling, **B Folt**. Annual and lifetime home ranges reveal movement patterns within and among local populations of gopher tortoises. *Chelonian Conservation and Biology* 23(1):81--91. [PDF](files/guyer_etal_2024_ccb.pdf) [DOI](https://doi.org/10.2744/CCB-1603.1)
 
 [26] AR Krohn, **B Folt**, JJ Apodaca, C Guyer, J Goessling. 2024. Using genomic data to estimate population structure and health for gopher tortoises. *Conservation Genetics* 25:755--770. [PDF](files/krohn_et_al_2024_tortoises.pdf) [DOI](https://doi.org/10.1007/s10592-024-01601-1)
 
 ### <u>2023</u>
-
-<img src="images/wild-horses-cropped.JPG" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
 [25]	**B Folt**, KA Schoenecker, LS Ekernas, DR Edmunds, M Hannon. 2023. *PopEquus*: a predictive modeling tool to support management decisions for free-roaming horse populations. *Ecosphere* e4632. [PDF](files/folt-et-al-2023-ecosphere.pdf) - [DOI](https://doi.org/10.1002/ecs2.4632) - [Software](https://doi.org/10.5066/P9HVUA6D) - [Application](https://rconnect.usgs.gov/popequus/)
 
