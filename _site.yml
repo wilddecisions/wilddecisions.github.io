@@ -22,6 +22,8 @@ navbar:
         href: student_expectations.html
       - text: "Code of Conduct"
         href: code_of_conduct.html
+      - text: "Lab Meetings"
+        href: lab_meetings.html
       - text: "Prospective Students"
         href: prospective_students.html
       - text: "Tools"
