@@ -55,7 +55,11 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 }
 }</style>
 
-There are no vacant opportunities available at this moment. Please reach out to me if you are interested in working with us, though!
+<img src="images/lab_meeting.jpg" style="width:30%; border:2px solid; margin-right: 20px" align="right">
+
+There are no vacant opportunities available at this moment.
+
+Please reach out to me if you are interested in working with us, though!
 
 Click on the **bold header** below to review 'old opportunities' in the **Shop**.
 
