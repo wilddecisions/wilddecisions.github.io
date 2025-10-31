@@ -57,21 +57,21 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 Below are publications and PDF reprints from Brian Folt and the Wildlife Decision-Support Shop. Peer-reviewed publications are listed numerically and ordered by year.
 
-<img src="images/desert_tortoise.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
-
 ### <u>In preparation (draft available upon request)</u>
 
-[i] SJ Hromada, **B Folt**, A Collins, J Dougherty, LJ Allison, KK Drake, TC Esque, J Freilich, E Hunter, JE Lovich, AM McLuckie, CI Mitchell, KE Nussear, K Shoemaker, MS Vamstad, AG Vandergast, MA Walden, BG Dickson. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. **In revision**.
-
-[ii] **B Folt**, M Crabb, P Griffin, KA Schoenecker. Management and population density influence wild horse population growth in the western United States. **In prep**.
-
-[iii] T Shane, PJ Williams, **B Folt**, RA Washington-Allen, BL Perryman. Application of a hierarchical zero-inflated beta model to evaluate early stages of targeted grazing treatment application on an invasive annual grass. **In prep**.
+[i] **B Folt**, M Crabb, P Griffin, KA Schoenecker. Management and population density influence wild horse population growth in the western United States. **In prep**.
 
 <img src="images/lion_horse.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
+[ii] T Shane, PJ Williams, **B Folt**, RA Washington-Allen, BL Perryman. Application of a hierarchical zero-inflated beta model to evaluate early stages of targeted grazing treatment application on an invasive annual grass. **In prep**.
+
 ### <u>2025</u>
 
-[31] DC Stoner, **B Folt**, KA Schoenecker. **Accepted.** Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? *Frontiers in Conservation Science*.
+[32] DC Stoner, **B Folt**, KA Schoenecker. **Accepted.** Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? *Frontiers in Conservation Science*.
+
+<img src="images/desert_tortoise.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
+
+[31] SJ Hromada, **B Folt**, KT Shoemaker, M Standen, A Parsens, LJ Allison,  J Dougherty, KK Drake, TC Esque, M Walden, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, MS Vamstad, AG Vandergast, E Hunter, KE Nussear, BG Dickson. **Accepted**. An integrated survival model improves inference about historical patterns of survival in the Mojave desert tortoise. *Endangered Species Research*.
 
 [30] K Grimm, **B Folt**, A Collins, M Standen, M Spangler, B Dickson. Applying knowledge co-production to identify Mojave desert tortoise stressors across time, space, and agency missions. *Conservation Science and Practice* 7:e70073. [PDF](files/grimm_etal_2025_coproduction.pdf) [DOI](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/csp2.70073)
 
