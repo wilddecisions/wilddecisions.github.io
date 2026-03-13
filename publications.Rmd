@@ -71,7 +71,7 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 <img src="images/desert_tortoise.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
-[31] SJ Hromada, **B Folt**, KT Shoemaker, M Standen, A Parsens, LJ Allison,  J Dougherty, KK Drake, TC Esque, M Walden, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, MS Vamstad, AG Vandergast, E Hunter, KE Nussear, BG Dickson. **2026**. An integrated model improves inferences about survival in the Mojave desert tortoise. *Endangered Species Research* 59:1-19. [PDF](hromada_etal_2026_tortoises.pdf) [DOI](https://doi.org/10.3354/esr01468)
+[31] SJ Hromada, **B Folt**, KT Shoemaker, M Standen, A Parsens, LJ Allison,  J Dougherty, KK Drake, TC Esque, M Walden, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, MS Vamstad, AG Vandergast, E Hunter, KE Nussear, BG Dickson. **2026**. An integrated model improves inferences about survival in the Mojave desert tortoise. *Endangered Species Research* 59:1-19. [PDF](files/hromada_etal_2026_tortoises.pdf) [DOI](https://doi.org/10.3354/esr01468)
 
 ### <u>2025</u>
 
