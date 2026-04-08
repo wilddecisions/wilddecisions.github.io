@@ -65,9 +65,11 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 [ii] T Shane, PJ Williams, **B Folt**, RA Washington-Allen, BL Perryman. Application of a hierarchical zero-inflated beta model to evaluate early stages of targeted grazing treatment application on an invasive annual grass. **In prep**.
 
+[iii] M Standen, E Olimpi, AW Parsons, LM Lacey, SJ Hromada, **B Folt**, KT Shoemaker, J Robillard, LJ Allison, J Dougherty, KK Drake, TC Esque, MA Walden, J Freilich, JE Lovich, AM McLuckie, CI Mitchell, MS Vamstad, AG Vandergast, EA Hunter, KE Nussear, B Dickson. An integrated approach for quantifying effects of multiple stressors on survival of an imperiled desert reptile over large spatiotemporal extents. **In prep**.
+
 ### <u>2026</u>
 
-[32] DC Stoner, **B Folt**, KA Schoenecker. **Accepted.** Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? *Frontiers in Conservation Science*. [PDF](files/stoner_etal_2026.pdf) [DOI](https://doi.org/10.3389/fcosc.2025.1603626)
+[32] DC Stoner, **B Folt**, KA Schoenecker. 2026. Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? *Frontiers in Conservation Science*. [PDF](files/stoner_etal_2026.pdf) [DOI](https://doi.org/10.3389/fcosc.2025.1603626)
 
 <img src="images/desert_tortoise.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
