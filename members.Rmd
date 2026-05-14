@@ -73,6 +73,16 @@ Nathan is a large mammal ecologist interested in population ecology and the effe
 
 Ava is an ungulate ecologist who is interested in using multifaceted approaches in applied research to inform management decisions. Her work examines how environmental factors, disease, nutrition, and trace minerals affect ungulate survival. Ava earned her B.S. in Wildlife Biology from the University of Montana (2025), where she completed an undergraduate thesis on forage utilization by elk. Her current research investigates the puzzling spring-time mortality events in a northern Nevada elk population. Her work aims to help Nevada Department of Wildlife better understand the potential factors causing this pulse in spring elk mortality, which is otherwise undocumented throughout the state.
 
+<img src="images/issom.jpg" style="width:21%; border:2px solid; margin-right: 20px" align="left">
+
+
+#### [**Sophie Issom -- Technician Extraordinaire**]{.ul}
+
+Sophie is an undergraduate at Utah State University studying Wildlife Ecology. Sophie is interested in population ecology and ungulate migration patterns and joined our lab during 2026 to assist with research on spring-time elk mortality in northern Nevada and to help Nevada Department of Wildlife on various elk and big game projects. Her current work at Utah State is exploring how conservation reserve programs in the Bear River watershed impact mule deer movement between summer and winter ranges.
+
+<br>
+
+
 ### [**Other Lab Members**]{.ul}
 
 We are continuing to build out the lab and will be hiring graduate students to help with projects as they emerge. Check out funded student and post-doc opportunities [here](https://wilddecisions.github.io/opportunities.html)!
