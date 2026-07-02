@@ -76,7 +76,7 @@ Ava is an ungulate ecologist who is interested in using multifaceted approaches 
 <img src="images/issom.jpg" style="width:21%; border:2px solid; margin-right: 20px" align="left">
 
 
-#### [**Sophie Issom -- Technician Extraordinaire**]{.ul}
+#### [**Sophie Isom -- Technician Extraordinaire**]{.ul}
 
 Sophie is an undergraduate at Utah State University studying Wildlife Ecology. Sophie is interested in population ecology and ungulate migration patterns and joined our lab during 2026 to assist with research on spring-time elk mortality in northern Nevada and to help Nevada Department of Wildlife on various elk and big game projects. Her current work at Utah State is exploring how conservation reserve programs in the Bear River watershed impact mule deer movement between summer and winter ranges.
 
