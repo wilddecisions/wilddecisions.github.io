@@ -69,13 +69,13 @@ Below are publications and PDF reprints from Brian Folt and the Wildlife Decisio
 
 [iv] M Kauffman, B Lowrey, JL McKee, ..., **B Folt**, and ~20 co-authors. **Under review**. Ungulate migrations of the Western United States, volume 7. U.S. Geological Survey, Scientific Investigations Report. To be published spring 2027.
 
-[v] SJ Converse, CP McGowan, **B Folt**. **Under review**. Structured decision for fish and wildlife management. *Transactions of the 91st North American Wildlife and Natural Resource Conference*.
-
 ### <u>2026</u>
+
+[34] SJ Converse, CP McGowan, **B Folt**. In press. Structured decision for fish and wildlife management. *Transactions of the 91st North American Wildlife and Natural Resource Conference*.
 
 <img src="images/lion_horse.png" style="width:20%; border:1px solid; margin-left: 15px" align="right">
 
-[33] **B Folt**, SJ Converse, CP McGowan. In press. Navigating uncertainty: decision analysis to support fish and wildlife management agencies. *Transactions of the 91st North American Wildlife and Natural Resource Conference*. (IP-190349)
+[33] **B Folt**, SJ Converse, CP McGowan. In press. Navigating uncertainty: decision analysis to support fish and wildlife management agencies. *Transactions of the 91st North American Wildlife and Natural Resource Conference*.
 
 [32] DC Stoner, **B Folt**, KA Schoenecker. 2026. Effects of mountain lion predation on feral horse population growth rates: panacea or pipedream? *Frontiers in Conservation Science*. [PDF](files/stoner_etal_2026.pdf) [DOI](https://doi.org/10.3389/fcosc.2025.1603626)
 
