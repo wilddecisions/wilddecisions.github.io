@@ -57,9 +57,9 @@ pre { /* Code block - determines code spacing between lines */ font-size: 14px;}
 
 <img src="images/lab_meeting.jpg" style="width:30%; border:2px solid; margin-right: 20px" align="right">
 
-There are no vacant opportunities available at this moment.
+**2025 Spring**: We are recruiting a **post-doctoral researcher** to help study **mountain lion** population genetics in Nevada. A job advertisement is [here](files/jobad_lion_popgen_postdoc.pdf). Please reach out if you are interested!
 
-Please reach out to me if you are interested in working with us, though!
+More generally, please reach out to me if you are interested in working with us!
 
 Click on the **bold header** below to review 'old opportunities' in the **Shop**.
 
